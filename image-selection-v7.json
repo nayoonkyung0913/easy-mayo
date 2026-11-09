@@ -1,0 +1,19 @@
+{
+  "version": "0.5.2",
+  "request": "Use the previously created OPEN / SQUEEZE / ENJOY closeups; match the intro gallery image size to Kazak.",
+  "source": "Previously generated 0.5 closeup PNG files; no new image generation in this update.",
+  "usage_images": [
+    "easy-mayo-step-open-v5.png",
+    "easy-mayo-step-squeeze-v5.png",
+    "easy-mayo-step-enjoy-v5.png"
+  ],
+  "gallery_reference": {
+    "stylesheet": "nayoonk/releases/kazak/3.0.2/kazak.css",
+    "also_matches": "Kazak 3.1.0",
+    "desktop_width": "max(220px,35vw)",
+    "mobile_width": "72cqw",
+    "mobile_breakpoint": "700px container width",
+    "aspect_ratio": "4 / 3"
+  },
+  "unchanged": ["All scroll interaction logic", "Latest sauce-to-food corrected gallery images", "Other sections"]
+}

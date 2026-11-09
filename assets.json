@@ -270,10 +270,22 @@
     "bytes": 625200
   },
   {
+    "name": "easy-mayo-step-open-v5.png",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-step-open-v5-44caf4a8.png",
+    "sha256": "44caf4a82cc9b01ebf1f3af25ae84e7231c5ffe7da75ad36c483ce10c3be7217",
+    "bytes": 1843772
+  },
+  {
     "name": "easy-mayo-step-squeeze-real-v5.svg",
     "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-step-squeeze-real-v5-4d0e5cfb.svg",
     "sha256": "4d0e5cfb1d916c06ae32b321cb0d51d3770e810fffbe050bd2f4bc1659813bf5",
     "bytes": 625200
+  },
+  {
+    "name": "easy-mayo-step-squeeze-v5.png",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-step-squeeze-v5-f1b04bd5.png",
+    "sha256": "f1b04bd563e204efe373cbf67a32b91eeb65a096798d4e21a2681366b267ee40",
+    "bytes": 2047980
   },
   {
     "name": "easy-mayo-truffle-pour-original.jpg",
