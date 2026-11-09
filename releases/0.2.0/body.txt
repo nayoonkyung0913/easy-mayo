@@ -1,0 +1,391 @@
+<div data-easy-mayo-version="0.2.0">
+	<section class="hero">
+		<div class="brandbar">
+			<br>
+		</div>
+		<div aria-hidden="true" class="hero-type">EASY MAYO<span>COLORFUL EVERYDAY.</span>
+</div>
+		<div class="hero-art">
+			<div class="photo" style="aspect-ratio:725/1037;"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-product-df1f9f1b.jpg" alt="트러플표고마요 280g" class="fr-fic fr-dii"></div>
+            <img class="em-hero-mini" src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-product-4b8c5ac0.jpg" alt="흑마늘페퍼마요 280g">
+        </div>
+		<div class="hero-caption">
+
+			<h1>익숙한 한 끼에 풍미를 더해.<br>쭉 짜서 맛있게, 이지마요.</h1>
+<a href="#em-about">SCROLL TO TASTE ↓</a>
+</div>
+	</section>
+	<section class="intro center" id="em-about">
+
+		<p class="eyebrow">MINES EASY MAYO</p>
+
+		<h2 class="title">익숙한 한 끼에,<br>새로운 풍미 한 줄.</h2>
+
+		<p class="copy">부드럽게 짜서 더하는 이지마요.<br>두 가지 맛으로 매일을 다채롭게 즐겨보세요.</p>
+	</section>
+	<section aria-label="이지마요 연출 이미지 갤러리" class="gallery">
+		<div aria-label="가로 이미지 갤러리" class="gallery-track" tabindex="0">
+			<div class="gallery-belt">
+				<div class="gallery-group">
+					<figure class="gallery-card">
+						<div class="photo"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-duo-original-a10e411c.jpg" alt="이지마요 실촬영 duo-original" class="fr-fic fr-dii"></div>
+					</figure>
+					<figure class="gallery-card">
+						<div class="photo"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-pour-original-95c2aef2.jpg" alt="이지마요 실촬영 truffle-pour-original" class="fr-fic fr-dii"></div>
+					</figure>
+					<figure class="gallery-card">
+						<div class="photo"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-pour-original-6d173e9a.jpg" alt="이지마요 실촬영 pepper-pour-original" class="fr-fic fr-dii"></div>
+					</figure>
+				</div>
+</div>
+</div>
+		<div class="gallery-controls">
+<span>SQUEEZE. SPREAD. ENJOY.</span>
+			<div>
+				<button aria-label="이전 이미지" data-slide="-1" type="button">←</button>
+				<button aria-label="다음 이미지" data-slide="1" type="button">→</button>
+				<button aria-pressed="false" class="motion" type="button">움직임 멈추기</button>
+			</div>
+</div>
+	</section>
+	<section aria-labelledby="em-size-title" class="em-size-comparison em-size-guide" id="em-sizes">
+  <div class="wrap">
+    <header class="em-size-head">
+      <p class="eyebrow" lang="en">FIND YOUR MAYO</p>
+      <h2 class="title" id="em-size-title">나에게 맞는 이지마요는?</h2>
+      <p class="em-size-swipe">옆으로 넘겨 두 가지 맛을 비교하세요 →</p>
+    </header>
+    <div class="em-size-grid" tabindex="0" role="region" aria-label="이지마요 두 가지 맛 비교">
+      <article class="em-size-card">
+        <h3>280<small>g</small>
+</h3>
+        <div class="em-asset" data-image-slot="size-small"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-product-df1f9f1b.jpg" loading="lazy" alt="트러플표고마요 280g"></div>
+        <h4>트러플표고마요</h4>
+        <p>빵과 감자 요리에 더하는 달콤하고 부드러운 풍미.</p>
+      </article>
+      <article class="em-size-card">
+        <h3>280<small>g</small>
+</h3>
+        <div class="em-asset" data-image-slot="size-medium"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-product-4b8c5ac0.jpg" loading="lazy" alt="흑마늘페퍼마요 280g"></div>
+        <h4>흑마늘페퍼마요</h4>
+        <p>고기와 튀김 요리에 더하는 후추의 알싸한 풍미.</p>
+      </article>
+      </div>
+  </div>
+</section>
+	<section class="texture em-spoon-scroll" id="em-texture" aria-labelledby="em-spoon-title">
+        <div class="em-spoon-stage">
+            <h2 class="title" id="em-spoon-title">부드러운 소스 사이사이,<br>깊은 풍미를 담아.</h2>
+            <div class="texture-photo em-spoon-image"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/truffle-texture-detail-6de77cde.jpg" alt="실촬영 트러플표고마요의 윤기와 작은 입자"></div>
+        </div>
+    </section>
+	<section aria-labelledby="em-core-title" class="wrap pad center em-core" id="em-ingredients">
+
+		<p class="eyebrow" lang="en">THE EASY MAYO FLAVORS</p>
+
+		<h2 class="title" id="em-core-title">맛을 채우는<br>두 가지 풍미 조합.</h2>
+		<div class="ingredients">
+			<article class="ingredient">
+				<div class="em-ingredient-cutout" data-image-slot="milk-base"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-pour-original-95c2aef2.jpg" alt="트러플과 표고 실촬영 참고" class="fr-fic fr-dii"></div>
+
+				<h3>트러플과 표고</h3>
+
+				<p>은은한 트러플 향과 표고의 감칠맛.</p>
+			</article>
+			<article class="ingredient">
+				<div class="em-ingredient-cutout"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-pour-original-6d173e9a.jpg" alt="흑마늘과 후추 실촬영 참고" class="fr-fic fr-dii"></div>
+
+				<h3>흑마늘과 후추</h3>
+
+				<p>흑마늘의 풍미에 더한 후추의 알싸함.</p>
+			</article>
+		</div>
+	</section>
+	<section class="process em-making-centered" id="em-making">
+		<div class="wrap">
+
+			<p class="eyebrow">ENJOY EASY MAYO</p>
+
+			<h2 class="title">쭉 짜는 순간부터<br>맛있는 한 입까지.</h2>
+			<div class="em-steps">
+				<article>
+					<div class="photo em-asset" data-image-slot="process-milk-base"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-pour-original-95c2aef2.jpg" alt="쭉 짜서 더하고 실촬영" class="fr-fic fr-dii"></div>
+
+					<h3>
+<small>01 / </small>쭉 짜서 더하고</h3>
+				</article>
+				<article>
+					<div class="photo"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-pour-original-6d173e9a.jpg" alt="슥 발라 즐기고 실촬영" class="fr-fic fr-dii"></div>
+
+					<h3>
+<small>02 / </small>슥 발라 즐기고</h3>
+				</article>
+				<article>
+					<div class="photo"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-duo-original-a10e411c.jpg" alt="한 끼를 완성하고 실촬영" class="fr-fic fr-dii"></div>
+
+					<h3>
+<small>03 / </small>한 끼를 완성하고</h3>
+				</article>
+			</div>
+			<div class="em-making em-flavor-story"><div class="em-rail-stage">
+
+				<p class="eyebrow" lang="en">TWO FLAVORS, EVERYDAY JOY</p>
+
+				<h3 class="em-rail-title">두 가지 풍미, <span class="em-rail-line">다채로운 한 끼.</span>
+</h3>
+				<div class="em-making-grid">
+					<article class="em-making-card" style="--em-making-color:#FBDDAA;">
+						<div class="em-asset" data-image-slot="making-pistachio"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-pour-original-95c2aef2.jpg" alt="트러플표고마요 배치 참고" class="fr-fic fr-dii"></div>
+						<div class="em-making-copy">
+
+							<h3>트러플표고마요</h3>
+
+							<p>트러플 향과 표고의 감칠맛</p>
+						</div>
+					</article>
+					<article class="em-making-card" style="--em-making-color:#CAB190;">
+						<div class="em-asset" data-image-slot="making-cheese"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-pour-original-6d173e9a.jpg" alt="흑마늘페퍼마요 배치 참고" class="fr-fic fr-dii"></div>
+						<div class="em-making-copy">
+
+							<h3>흑마늘페퍼마요</h3>
+
+							<p>흑마늘 풍미와 후추의 알싸함</p>
+						</div>
+					</article>
+					<article class="em-making-card" style="--em-making-color:#f5dbb6;">
+						<div class="em-asset" data-image-slot="making-strawberry"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-5-577977e8.jpg" alt="노릇한 빵 위에 배치 참고" class="fr-fic fr-dii"></div>
+						<div class="em-making-copy">
+
+							<h3>노릇한 빵 위에</h3>
+
+							<p>바게트와 토스트에 슥</p>
+						</div>
+					</article>
+					<article class="em-making-card" style="--em-making-color:#d9b690;">
+						<div class="em-asset" data-image-slot="making-hazelnut"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-1-d256a286.jpg" alt="고기 한 입에 배치 참고" class="fr-fic fr-dii"></div>
+						<div class="em-making-copy">
+
+							<h3>고기 한 입에</h3>
+
+							<p>스테이크와 소시지에 쭉</p>
+						</div>
+					</article>
+					<article class="em-making-card" style="--em-making-color:#f2d5a3;">
+						<div class="em-asset" data-image-slot="making-cinnamon"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-8-f1dfecbc.jpg" alt="바삭한 감자에 배치 참고" class="fr-fic fr-dii"></div>
+						<div class="em-making-copy">
+
+							<h3>바삭한 감자에</h3>
+
+							<p>곁들여 콕 찍어 즐겨요</p>
+						</div>
+					</article>
+				</div>
+</div></div>
+</div>
+	</section>
+	<div aria-hidden="true" class="em-milk-wave">
+		<br>
+	</div>
+	<div aria-hidden="true" class="ticker">
+		<div class="ticker-run">
+<span>JUST SQUEEZE. ENJOY THE FLAVOR. ✳ </span><span>JUST SQUEEZE. ENJOY THE FLAVOR. ✳ </span><span>JUST SQUEEZE. ENJOY THE FLAVOR. ✳ </span><span>JUST SQUEEZE. ENJOY THE FLAVOR. ✳ </span>
+</div>
+</div>
+	<section aria-labelledby="em-recipes-title" class="recipes" id="em-recipes">
+		<div class="wrap">
+			<div class="center">
+
+				<p class="em-recipe-script" lang="en">How to enjoy</p>
+
+				<h2 class="title" id="em-recipes-title">오늘의 한 끼,<br>당신의 방식으로.</h2>
+			</div>
+			<div class="em-recipe-list">
+				<article class="recipe">
+					<div class="photo" data-recipe-direction="1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-5-577977e8.jpg" alt="바게트 &amp; 토스트 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with bread</p>
+
+						<h3>바게트 &amp; 토스트</h3>
+
+						<p class="copy">노릇하게 구운 빵 위에 트러플표고마요를 발라보세요.</p>
+					</div>
+				</article>
+				<article class="recipe">
+					<div class="em-asset photo" data-image-slot="recipe-pastry" data-recipe-direction="-1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-8-f1dfecbc.jpg" alt="감자튀김 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with fries</p>
+
+						<h3>감자튀김</h3>
+
+						<p class="copy">바삭한 감자튀김에 트러플표고마요를 콕.</p>
+					</div>
+				</article>
+				<article class="recipe">
+					<div class="em-asset photo" data-image-slot="recipe-waffle" data-recipe-direction="1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-1-d256a286.jpg" alt="스테이크 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with steak</p>
+
+						<h3>스테이크</h3>
+
+						<p class="copy">한 입 크기로 썬 고기에 흑마늘페퍼마요를 곁들여요.</p>
+					</div>
+				</article>
+				<article class="recipe">
+					<div class="em-asset photo" data-image-slot="recipe-ice-cream" data-recipe-direction="-1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-4-0bed248a.jpg" alt="구운 소시지 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with sausage</p>
+
+						<h3>구운 소시지</h3>
+
+						<p class="copy">노릇하게 구운 소시지에 흑마늘페퍼마요를 쭉.</p>
+					</div>
+				</article>
+				<article class="recipe">
+					<div class="em-asset photo" data-image-slot="recipe-yogurt" data-recipe-direction="1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-3-e9251ee2.jpg" alt="치킨 &amp; 튀김 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with chicken</p>
+
+						<h3>치킨 &amp; 튀김</h3>
+
+						<p class="copy">따뜻한 치킨과 튀김에 한 접시 곁들여보세요.</p>
+					</div>
+				</article>
+				<article class="recipe">
+					<div class="em-asset photo" data-image-slot="recipe-bingsu" data-recipe-direction="-1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-7-0edc8e61.jpg" alt="샐러드 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with salad</p>
+
+						<h3>샐러드</h3>
+
+						<p class="copy">싱그러운 채소에 트러플표고마요를 더해요.</p>
+					</div>
+				</article>
+				<article class="recipe">
+					<div class="em-asset photo" data-image-slot="recipe-crackers" data-recipe-direction="1"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-6-75edf56f.jpg" alt="구운 감자 연출 구도 참고" class="fr-fic fr-dii"></div>
+					<div class="recipe-card">
+
+						<p class="em-recipe-script" lang="en">with potatoes</p>
+
+						<h3>구운 감자</h3>
+
+						<p class="copy">포슬포슬한 감자 위에 부드러운 풍미를.</p>
+					</div>
+				</article>
+                <article class="recipe em-recipe-spoon" id="em-just-spoon">
+                    <div class="em-asset photo" data-image-slot="recipe-spoon"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-scene-19-31167b70.jpg" alt="쭉 짜서, 한 입 더 맛있게. 연출 구도 참고" loading="lazy"></div>
+                    <div class="recipe-card">
+                        <p class="em-recipe-script" lang="en">Just squeeze</p>
+                        <h3>쭉 짜서,<br>한 입 더 맛있게.</h3>
+                        <p class="copy">완성된 요리 위에 이지마요를 쭉.<br>오늘의 한 끼를 간편하게 즐겨보세요.</p>
+                    </div>
+                </article>
+			</div>
+		</div>
+	</section>
+	<section class="flavors" id="em-flavors">
+		<div class="wrap">
+			<div class="center">
+
+				<p class="eyebrow">TWO FLAVORS. YOUR FAVORITE.</p>
+
+				<h2 class="title">어떤 맛으로
+					<br>시작해볼까요?</h2>
+			</div>
+			<div aria-label="이지마요 맛 선택" class="tabbar">
+				<button aria-controls="em-panel-0" aria-selected="true" data-flavor="0" id="em-tab-0" tabindex="0" type="button">트러플표고마요</button>
+				<button aria-controls="em-panel-1" aria-selected="false" data-flavor="1" id="em-tab-1" tabindex="-1" type="button">흑마늘페퍼마요</button>
+				</div>
+			<div class="flavor-stage">
+				<article aria-labelledby="em-tab-0" class="flavor-panel" data-color="#FBDDAA" id="em-panel-0" data-flavor-name="트러플표고마요">
+					<div class="em-flavor-visual em-jar-pair">
+                        <img class="em-jar-large" src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-product-df1f9f1b.jpg" alt="트러플표고마요 280g">
+                        <img class="em-jar-small" src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-product-4b8c5ac0.jpg" alt="함께 즐기는 이지마요 다른 맛 280g">
+                    </div>
+                    <div class="em-flavor-details">
+<div>
+
+						<p class="en">TRUFFLE MUSHROOM</p>
+
+						<h3>트러플표고마요</h3>
+
+						<p class="copy">은은한 트러플 향과 표고의 감칠맛</p>
+
+						</div>
+                        <div class="em-asset em-flavor-garnish" data-image-slot="flavor-pistachio"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/truffle-texture-detail-6de77cde.jpg" alt="트러플표고마요 실제 소스 기준" class="fr-fic fr-dii"></div>
+</div>
+				</article>
+				<article aria-labelledby="em-tab-1" class="flavor-panel" data-color="#CAB190" id="em-panel-1" data-flavor-name="흑마늘페퍼마요">
+					<div class="em-flavor-visual em-jar-pair">
+                        <img class="em-jar-large" src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pepper-product-4b8c5ac0.jpg" alt="흑마늘페퍼마요 280g">
+                        <img class="em-jar-small" src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-truffle-product-df1f9f1b.jpg" alt="함께 즐기는 이지마요 다른 맛 280g">
+                    </div>
+                    <div class="em-flavor-details">
+<div>
+
+						<p class="en">BLACK GARLIC PEPPER</p>
+
+						<h3>흑마늘페퍼마요</h3>
+
+						<p class="copy">흑마늘의 풍미와 후추의 알싸함</p>
+
+						</div>
+                        <div class="em-asset em-flavor-garnish" data-image-slot="flavor-cheese"><img src="https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/pepper-texture-detail-a758c44f.jpg" alt="흑마늘페퍼마요 실제 소스 기준" class="fr-fic fr-dii"></div>
+</div>
+				</article>
+				</div>
+</div>
+	</section>
+	<div class="em-product-info">
+		<section aria-labelledby="em-info-title" class="em-info" id="em-info">
+			<div class="em-info-head">
+
+				<h2 id="em-info-title">상품정보</h2>
+
+				<p>맛별 원재료와 영양정보</p>
+			</div>
+			<div class="em-info-list">
+				<details class="em-label">
+					<summary>트러플표고마요</summary>
+					<div class="em-label-body"><dl class="em-specs">
+<div>
+<dt>제품명</dt>
+<dd>트러플표고마요</dd>
+</div>
+<div>
+<dt>총내용량</dt>
+<dd>280g</dd>
+</div>
+<div>
+<dt>표시사항</dt>
+<dd>최신 제품 라벨 확인 후 원재료·알레르기·영양정보·보관방법을 반영합니다.</dd>
+</div>
+</dl></div>
+				</details>
+				<details class="em-label">
+					<summary>흑마늘페퍼마요</summary>
+					<div class="em-label-body"><dl class="em-specs">
+<div>
+<dt>제품명</dt>
+<dd>흑마늘페퍼마요</dd>
+</div>
+<div>
+<dt>총내용량</dt>
+<dd>280g</dd>
+</div>
+<div>
+<dt>표시사항</dt>
+<dd>최신 제품 라벨 확인 후 원재료·알레르기·영양정보·보관방법을 반영합니다.</dd>
+</div>
+</dl></div>
+				</details>
+				</div>
+		</section>
+	</div>
+</div>
+
