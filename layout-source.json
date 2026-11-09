@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "source_commit": "4825215e54a673492e1331c73f99a67d7ae73c00",
   "source_body": "nayoonk/extras/kazak/cream-crunch/body.txt",
   "source_css_sha256": "994dda5aed40ad036fe45ca7b6fe1bb7ba55aad6b860c498d44c3f41a9329a81",
@@ -9,7 +9,8 @@
     "food usage content and product pairing images",
     "hero edge-to-center positions and upright final angle",
     "photographic vertical sauce reveal and reduced-motion fallback",
-    "horizontal rail endpoint centered when all cards fit; last card in view on mobile"
+    "horizontal rail endpoint centered when all cards fit; last card in view on mobile",
+    "flavor ink color changes with flavor background"
   ],
   "layout_adaptations": [
     "two product cards instead of three sizes",
@@ -25,6 +26,9 @@
     "오른쪽 상단에 크게 잘린 제품과 아래로 이어지는 소스, 왼쪽 한국어 문구",
     "각 음식 옆 추천 제품 누끼와 이름",
     "PC 사용법 마지막 지점에서 3개 카드 전체 노출",
-    "사용자 패키지 후면 표시사항 유지"
+    "사용자 패키지 후면 표시사항 유지",
+    "음식 중심 가로 컨셉 3장에 원본 실촬영 제품 합성",
+    "소스 섹션 라벨을 실제 제품 촬영으로 교체",
+    "사용법 이미지 재구성 및 하단 대비 배경 변경"
   ]
 }

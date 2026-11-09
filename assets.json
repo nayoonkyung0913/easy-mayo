@@ -12,10 +12,28 @@
     "bytes": 2083899
   },
   {
+    "name": "easy-mayo-concept-fries-real-v5.svg",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-concept-fries-real-v5-60ac44fb.svg",
+    "sha256": "60ac44fb024a2ea52f11b7c113f4e2f33488868759ff9d726257972c6320361e",
+    "bytes": 3779602
+  },
+  {
+    "name": "easy-mayo-concept-steak-real-v5.svg",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-concept-steak-real-v5-3b2fa4b1.svg",
+    "sha256": "3b2fa4b162b00e9b0dcfd028ffc2c64fdeee8e427bf034c6c1e0e1c5d6f77ebb",
+    "bytes": 3890618
+  },
+  {
     "name": "easy-mayo-concept-taupe-v4.png",
     "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-concept-taupe-v4-a5ca4537.png",
     "sha256": "a5ca4537f7821a9c11ed8f3f92b1329deba263b23d345685855393925b378a91",
     "bytes": 2059127
+  },
+  {
+    "name": "easy-mayo-concept-toast-real-v5.svg",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-concept-toast-real-v5-d6619624.svg",
+    "sha256": "d661962493545e3a66ccd92321bc7796b801b6dfa580e92295d9fc7851573d8d",
+    "bytes": 4077134
   },
   {
     "name": "easy-mayo-duo-original.jpg",
@@ -120,6 +138,12 @@
     "bytes": 270303
   },
   {
+    "name": "easy-mayo-pour-real-photo-v5.svg",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pour-real-photo-v5-31b4b2d6.svg",
+    "sha256": "31b4b2d6e62d0f8a453bf82109f662cebd5a27d74b2a649f77e9c2902ac77bb9",
+    "bytes": 1251480
+  },
+  {
     "name": "easy-mayo-pour-real-v4.png",
     "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-pour-real-v4-878f54fe.png",
     "sha256": "878f54fe82955840e7541d9555a81963059cf6e1fc2b94cd26cc4523865eb613",
@@ -214,6 +238,24 @@
     "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-squeeze-truffle-v1-0766bcf8.png",
     "sha256": "0766bcf8667c5ac963564d93c148e08f5776dd64187a4a6eb17743f69490879f",
     "bytes": 1711034
+  },
+  {
+    "name": "easy-mayo-step-enjoy-v5.png",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-step-enjoy-v5-18607c50.png",
+    "sha256": "18607c506cd11234f9c5c79816b8e91958b4e6e8c64942fb7dbb6dc75cf31d48",
+    "bytes": 2189686
+  },
+  {
+    "name": "easy-mayo-step-open-real-v5.svg",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-step-open-real-v5-98407211.svg",
+    "sha256": "9840721130ea7919d39cd64110a983293287b2ea47aa6cf0c460b9facb4b9df6",
+    "bytes": 625200
+  },
+  {
+    "name": "easy-mayo-step-squeeze-real-v5.svg",
+    "url": "https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/easy-mayo-step-squeeze-real-v5-4d0e5cfb.svg",
+    "sha256": "4d0e5cfb1d916c06ae32b321cb0d51d3770e810fffbe050bd2f4bc1659813bf5",
+    "bytes": 625200
   },
   {
     "name": "easy-mayo-truffle-pour-original.jpg",

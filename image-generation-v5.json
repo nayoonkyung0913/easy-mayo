@@ -1,0 +1,78 @@
+{
+  "version": "0.5.0",
+  "mode": "built-in image_gen",
+  "final_assets": [
+    "easy-mayo-concept-fries-real-v5.svg",
+    "easy-mayo-concept-steak-real-v5.svg",
+    "easy-mayo-concept-toast-real-v5.svg",
+    "easy-mayo-pour-real-photo-v5.svg",
+    "easy-mayo-step-open-real-v5.svg",
+    "easy-mayo-step-squeeze-real-v5.svg",
+    "easy-mayo-step-enjoy-v5.png"
+  ],
+  "product_method": "Original product, cap, hand and sauce photographs are embedded without generative redrawing and clipped using SVG photo layouts. Sauce stream is scaled to connect to food. Food and background are generated. Hero and bottom retain prior v4 studio packshots.",
+  "source_photographs": [
+    "260309_미네스04.jpg (truffle)",
+    "260309_미네스05-2.jpg (pepper)"
+  ],
+  "prompts": [
+    {
+      "name": "easy-mayo-concept-fries-action-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/신제품매거진/26년6월매거진/41.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-truffle-studio-v4.png"
+      ],
+      "prompt": "NEW premium mouthwatering action food advertising photograph, WIDE 16:9 landscape. Reference1 defines energetic squeezing composition, NOT its orange brand, NOT red sauce or pepperoni. Reference2 is exact MINES EASY MAYO product identity. Food and creamy flowing sauce are the HERO, filling 65-75% of the frame, extremely appetizing sharp texture and glossy highlights. Bottle is a supporting prop held upside down by a real adult hand entering from top-right, partially cropped by top, only 20-25% of frame area. Preserve reference2 straight RECTANGULAR paper sleeve over subtly curved plastic bottle, white open round flip cap and existing MINES/EASY MAYO/Korean flavor print; no redesign. Freeze a thick continuous ribbon of mayonnaise descending from the nozzle and just landing/coiling onto food, with a few small believable airborne garnish elements, captured high-speed commercial photography. Dynamic diagonal composition, slight steam, lively dramatic but tasteful softbox lighting. Sauce must look like real mayonnaise: creamy pale beige, tiny sparse flecks, thick rounded folds, not runny orange liquid or explosive water splash. NO captions, no poster text, no extra bottles, no upright standing packshot. SCENE: extremely crispy thick golden crinkle fries piled high in a small off-white bowl tilted slightly toward camera, dominant close foreground. Truffle mayo pale warm ivory ribbon freshly flowing over the ridges and slowly draping between fries. Two or three fries falling into pile, a tiny few thyme leaves and very thin mushroom slices in air, not a mess. Clean rich muted mushroom-taupe studio background with warm light, no green/red background. Bottle says 트러플표고마요. Focus on hot golden fry texture and luxurious real cream sauce. Low food-level camera angle; sauce landing center.",
+      "status": "food-scene predecessor; generated product discarded"
+    },
+    {
+      "name": "easy-mayo-concept-steak-action-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/신제품매거진/26년6월매거진/41.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-pepper-studio-v4.png"
+      ],
+      "prompt": "NEW premium mouthwatering action food advertising photograph, WIDE 16:9 landscape. Reference1 defines energetic squeezing composition, NOT its orange brand, NOT red sauce or pepperoni. Reference2 is exact MINES EASY MAYO product identity. Food and creamy flowing sauce are the HERO, filling 65-75% of the frame, extremely appetizing sharp texture and glossy highlights. Bottle is a supporting prop held upside down by a real adult hand entering from top-right, partially cropped by top, only 20-25% of frame area. Preserve reference2 straight RECTANGULAR paper sleeve over subtly curved plastic bottle, white open round flip cap and existing MINES/EASY MAYO/Korean flavor print; no redesign. Freeze a thick continuous ribbon of mayonnaise descending from the nozzle and just landing/coiling onto food, with a few small believable airborne garnish elements, captured high-speed commercial photography. Dynamic diagonal composition, slight steam, lively dramatic but tasteful softbox lighting. Sauce must look like real mayonnaise: creamy pale beige, tiny sparse flecks, thick rounded folds, not runny orange liquid or explosive water splash. NO captions, no poster text, no extra bottles, no upright standing packshot. SCENE: thick juicy seared steak sliced into 3 pieces with beautiful warm rosy center and glistening grill crust, huge close foreground on charcoal ceramic platter. BLACK GARLIC PEPPER MAYO light warm TAN-BEIGE ribbon flows onto steak from above; airy scattering of just a few crushed pepper flecks and rosemary tips, subtle warm steam. Two golden potato wedges partially visible left. Dark warm espresso/taupe studio background, edge light on steak juice and sauce, strong appetizing texture. Bottle says 흑마늘페퍼마요. Food dominates foreground; pouring action clear; no pepperoni and no orange sauce.",
+      "status": "food-scene predecessor; generated product discarded"
+    },
+    {
+      "name": "easy-mayo-concept-toast-action-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/신제품매거진/26년6월매거진/42.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-truffle-studio-v4.png"
+      ],
+      "prompt": "NEW premium mouthwatering action food advertising photograph, WIDE 16:9 landscape. Reference1 defines energetic squeezing composition, NOT its orange brand, NOT red sauce or pepperoni. Reference2 is exact MINES EASY MAYO product identity. Food and creamy flowing sauce are the HERO, filling 65-75% of the frame, extremely appetizing sharp texture and glossy highlights. Bottle is a supporting prop held upside down by a real adult hand entering from top-right, partially cropped by top, only 20-25% of frame area. Preserve reference2 straight RECTANGULAR paper sleeve over subtly curved plastic bottle, white open round flip cap and existing MINES/EASY MAYO/Korean flavor print; no redesign. Freeze a thick continuous ribbon of mayonnaise descending from the nozzle and just landing/coiling onto food, with a few small believable airborne garnish elements, captured high-speed commercial photography. Dynamic diagonal composition, slight steam, lively dramatic but tasteful softbox lighting. Sauce must look like real mayonnaise: creamy pale beige, tiny sparse flecks, thick rounded folds, not runny orange liquid or explosive water splash. NO captions, no poster text, no extra bottles, no upright standing packshot. SCENE: a generous open-faced toasted sourdough brunch sandwich in extreme tasty foreground, golden crust, sautéed shiitake slices and a soft egg with a small glossy golden yolk flowing on toast. Pale ivory-beige truffle mayo squeezes in a beautiful thick ribbon across mushrooms from upper right. A few tiny thyme leaves and 2 mushroom slices suspended in air to suggest action. Warm sunlit creamy-greige kitchen bokeh background, shallow depth of field, food occupies most of frame. Bottle says 트러플표고마요. No red ingredients or pepperoni. Natural realistic portion of sauce, glossy soft not plastic, close appetizing perspective.",
+      "status": "food-scene predecessor; generated product discarded"
+    },
+    {
+      "name": "easy-mayo-concept-fries-base-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-fries-action-v5.png"
+      ],
+      "prompt": "Precisely edit this food photograph for compositing with an untouched real product photo later. REMOVE the entire bottle, cap, hand and arm from the upper-right of the image. REMOVE the raised sauce stream coming out of the nozzle, but KEEP the beautiful creamy sauce already deposited ON the food. Reconstruct only the natural blurred taupe/kitchen background behind the removed objects. Preserve all existing food, airborne garnishes, lighting, crop and colors as much as possible. At x=80% of canvas width and y=70% of canvas height ensure there is a small glossy pale beige sauce landing mound on the food, so a real thin stream can be overlaid onto it later. Keep the food as the delicious main foreground. No bottle, no hand, no lid, no text, no standing vertical sauce stream anywhere above the food. The upper-right 40% of frame must be clean background, suitable to receive a real hand-held product overlay. Output same wide 16:9 composition.",
+      "status": "selected food-only base"
+    },
+    {
+      "name": "easy-mayo-concept-steak-base-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-steak-action-v5.png"
+      ],
+      "prompt": "Precisely edit this food photograph for compositing with an untouched real product photo later. REMOVE the entire bottle, cap, hand and arm from the upper-right of the image. REMOVE the raised sauce stream coming out of the nozzle, but KEEP the beautiful creamy sauce already deposited ON the food. Reconstruct only the natural blurred taupe/kitchen background behind the removed objects. Preserve all existing food, airborne garnishes, lighting, crop and colors as much as possible. At x=80% of canvas width and y=70% of canvas height ensure there is a small glossy pale beige sauce landing mound on the food, so a real thin stream can be overlaid onto it later. Keep the food as the delicious main foreground. No bottle, no hand, no lid, no text, no standing vertical sauce stream anywhere above the food. The upper-right 40% of frame must be clean background, suitable to receive a real hand-held product overlay. Output same wide 16:9 composition.",
+      "status": "selected food-only base"
+    },
+    {
+      "name": "easy-mayo-concept-toast-base-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-toast-action-v5.png"
+      ],
+      "prompt": "Precisely edit this food photograph for compositing with an untouched real product photo later. REMOVE the entire bottle, cap, hand and arm from the upper-right of the image. REMOVE the raised sauce stream coming out of the nozzle, but KEEP the beautiful creamy sauce already deposited ON the food. Reconstruct only the natural blurred taupe/kitchen background behind the removed objects. Preserve all existing food, airborne garnishes, lighting, crop and colors as much as possible. At x=80% of canvas width and y=70% of canvas height ensure there is a small glossy pale beige sauce landing mound on the food, so a real thin stream can be overlaid onto it later. Keep the food as the delicious main foreground. No bottle, no hand, no lid, no text, no standing vertical sauce stream anywhere above the food. The upper-right 40% of frame must be clean background, suitable to receive a real hand-held product overlay. Output same wide 16:9 composition.",
+      "status": "selected food-only base"
+    },
+    {
+      "name": "easy-mayo-step-enjoy-v5.png",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-truffle-pour-original.jpg"
+      ],
+      "prompt": "New professional finished-food photograph, landscape 4:3. STEP 3 ENJOY: close three-quarter view of ONE golden rustic sourdough toast on a simple ivory ceramic plate, topped with a modest continuous S-shaped ribbon of pale warm creamy-beige truffle mayonnaise. Reference photo defines REAL sauce color and smooth glossy soft texture, with tiny sparse dark ingredient specks. Toast occupies 65%frame width, whole piece and rim of plate visible with breathing room, crisp bread crust and airy crumb. A tiny thyme tip beside toast only. Warm off-white tabletop and uncluttered soft ivory background, same bright diffused studio lighting as a premium how-to series. Clear and appetizing ready-to-eat result; no bottle, no hand, no cutlery, no sauce stream, no unrealistic enormous mound, no extreme macro, no captions, no layout, no collage. Natural food styling, high-resolution commercial photo."
+    }
+  ]
+}
