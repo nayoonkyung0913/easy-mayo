@@ -1,0 +1,41 @@
+{
+  "version": "0.5.1",
+  "scope": "concept gallery only",
+  "method": "Built-in image_gen localized sauce flow retouch; actual product, cap, hand and label reapplied unchanged from original real photographs in native SVG composition.",
+  "jobs": [
+    {
+      "food": "fries",
+      "dish": "crinkle-cut fries",
+      "origin": "(1015,445)",
+      "end": "(1008,674)",
+      "flavor": "pale warm ivory-beige truffle mushroom mayonnaise",
+      "prompt": "Use case: precise-object-edit. Edit the attached wide 1672x941 food advertising photograph. This is a tiny localized physical correction, NOT a redesign. Keep the EXACT image framing, food, airborne garnishes, background, actual photographed hand, real EASY MAYO bottle, sleeve artwork, cap geometry, nozzle position, and all Korean/English label print unchanged. Do not move, resize, replace, repaint, or extend the product. The single requested change: correct the mayonnaise flow between the product nozzle at approximately (1015,445) and the sauce-coated crinkle-cut fries at (1008,674). Replace the flat, rectangular, badly cut-out existing sauce strand with ONE continuous naturally rounded glossy viscous thread of pale warm ivory-beige truffle mushroom mayonnaise. It must visibly emerge FROM the actual nozzle (no gap) and descend under gravity DIRECTLY onto the FOOD, blending continuously into a small soft fold of the existing sauce on the food. The impact/contact must read as a continuous flowing pour accumulating on the food, never a cut-off tube, a suspended strand, stream onto the cap, background, plate, table, herbs, or airborne garnish. Make only the narrow flow corridor and its small contact area physically natural, with real small dark flecks, soft highlights and the same realistic mayonnaise color as the existing sauce. The sauce should be about the width of the existing nozzle opening, not an enormous waterfall or watery splash. Preserve appetizing food textures. No added text, no watermark. Critical: preserve all product pixels and silhouette and the coordinate registration of the original photograph."
+    },
+    {
+      "food": "steak",
+      "dish": "seared sliced steak",
+      "origin": "(1000,365)",
+      "end": "(1010,610)",
+      "flavor": "warm tan beige black-garlic pepper mayonnaise",
+      "prompt": "Use case: precise-object-edit. Edit the attached wide 1672x941 food advertising photograph. This is a tiny localized physical correction, NOT a redesign. Keep the EXACT image framing, food, airborne garnishes, background, actual photographed hand, real EASY MAYO bottle, sleeve artwork, cap geometry, nozzle position, and all Korean/English label print unchanged. Do not move, resize, replace, repaint, or extend the product. The single requested change: correct the mayonnaise flow between the product nozzle at approximately (1000,365) and the sauce-coated seared sliced steak at (1010,610). Replace the flat, rectangular, badly cut-out existing sauce strand with ONE continuous naturally rounded glossy viscous thread of warm tan beige black-garlic pepper mayonnaise. It must visibly emerge FROM the actual nozzle (no gap) and descend under gravity DIRECTLY onto the FOOD, blending continuously into a small soft fold of the existing sauce on the food. The impact/contact must read as a continuous flowing pour accumulating on the food, never a cut-off tube, a suspended strand, stream onto the cap, background, plate, table, herbs, or airborne garnish. Make only the narrow flow corridor and its small contact area physically natural, with real small dark flecks, soft highlights and the same realistic mayonnaise color as the existing sauce. The sauce should be about the width of the existing nozzle opening, not an enormous waterfall or watery splash. Preserve appetizing food textures. No added text, no watermark. Critical: preserve all product pixels and silhouette and the coordinate registration of the original photograph."
+    },
+    {
+      "food": "toast",
+      "dish": "mushroom toast",
+      "origin": "(1030,395)",
+      "end": "(1025,615)",
+      "flavor": "pale warm ivory-beige truffle mushroom mayonnaise",
+      "prompt": "Use case: precise-object-edit. Edit the attached wide 1672x941 food advertising photograph. This is a tiny localized physical correction, NOT a redesign. Keep the EXACT image framing, food, airborne garnishes, background, actual photographed hand, real EASY MAYO bottle, sleeve artwork, cap geometry, nozzle position, and all Korean/English label print unchanged. Do not move, resize, replace, repaint, or extend the product. The single requested change: correct the mayonnaise flow between the product nozzle at approximately (1030,395) and the sauce-coated mushroom toast at (1025,615). Replace the flat, rectangular, badly cut-out existing sauce strand with ONE continuous naturally rounded glossy viscous thread of pale warm ivory-beige truffle mushroom mayonnaise. It must visibly emerge FROM the actual nozzle (no gap) and descend under gravity DIRECTLY onto the FOOD, blending continuously into a small soft fold of the existing sauce on the food. The impact/contact must read as a continuous flowing pour accumulating on the food, never a cut-off tube, a suspended strand, stream onto the cap, background, plate, table, herbs, or airborne garnish. Make only the narrow flow corridor and its small contact area physically natural, with real small dark flecks, soft highlights and the same realistic mayonnaise color as the existing sauce. The sauce should be about the width of the existing nozzle opening, not an enormous waterfall or watery splash. Preserve appetizing food textures. No added text, no watermark. Critical: preserve all product pixels and silhouette and the coordinate registration of the original photograph."
+    }
+  ],
+  "final_assets": [
+    "easy-mayo-concept-fries-real-v6.svg",
+    "easy-mayo-concept-steak-real-v6.svg",
+    "easy-mayo-concept-toast-real-v6.svg"
+  ],
+  "invariants": [
+    "Actual product photograph and label artwork",
+    "Existing scroll interaction code",
+    "All other section images and text"
+  ]
+}
