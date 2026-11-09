@@ -1,0 +1,161 @@
+{
+  "version": "0.4.0",
+  "tool": "built-in image_gen.imagegen",
+  "note": "User supplied actual product photographs are the shape reference. Product, food and concept assets are AI-assisted edits; ingredient assets are generated photographic illustrations. Information tables use user-supplied package artwork, not generated image lettering.",
+  "assets": [
+    {
+      "key": "pour-real",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/truffle-pour-original.jpg"
+      ],
+      "transparent": true,
+      "prompt": "Precise photographic background extraction. EDIT the actual supplied photo: keep only the inverted cream-label truffle EASY MAYO bottle at upper right, its open white flip-top cap, AND the actual thin straight vertical pale creamy sauce stream coming out of its nozzle. Remove the hand, other bottle, food, table, ingredients and background. Preserve original photographic appearance, sauce color (#FBDDAA appearance), irregular tiny flecks, real glossy edges, real thin stream thickness, real bottle label and proportions. Reconstruct only the small bottle area previously covered by fingers. The sauce must go STRAIGHT DOWN from the nozzle, no curve, no swirls, no designed stripe. End naturally at a rounded narrow tip before it reaches food. Arrange full inverted bottle on upper 65% of tall portrait transparent canvas and straight stream below, attached continuously; stream occupies remaining 35%. No shadows/glow outside silhouette, actual alpha 0. High resolution 1024x2048 or similar. It is a cutout of this photograph, not an illustration or new sauce.",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-pour-real-v4.png",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-03c9849b-d7c2-4cf8-a3b6-1ab24c78a630.png"
+    },
+    {
+      "key": "front-truffle",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/actual-front-truffle.png"
+      ],
+      "prompt": "Use case: background-extraction. Edit target: the attached ACTUAL photographed Easy Mayo product. Precisely extract this exact product, rotate/straighten it upright front facing and crop close. Preserve original printed label pixels, rectangular straight edged paper sleeve with squared bottom corners, slightly irregular exposed soft bottle sides, original long narrow proportions and original wide LOW cylindrical white cap with broad flat top disc. The cap is CLOSED. No bowtie hinge on the front. Keep cap shape identical to photo. Only remove table/background/shadow and improve neutral studio exposure. Do not redesign, smooth into a rounded bottle, alter text, invent details, or change silhouette. Photographic, crisp high resolution. Whole product entirely visible, centered, occupies 94% height, narrow portrait canvas 1:2. True transparent background. Preserve truffle beige sleeve and front text 280g(1,655kcal).",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-62c70a85-8899-46ed-82b5-e53aa752dbad.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-truffle-v4.png"
+    },
+    {
+      "key": "ingredients-truffle",
+      "prompt": "Photorealistic studio food photograph cutout for premium mayo ingredient section. Only a natural whole black truffle with one cut face and two thin marbled truffle slices, next to two real shiitake mushrooms one whole and one cut showing gills. Compact balanced horizontal group, eye-level three-quarter view, all objects fully visible. Neutral soft light, natural detailed imperfect skin and fibers. Transparent background, no floor, no plate, no shadows extending outside objects, no text, no bottle, no herbs, no other ingredients. Landscape 3:2, fills 85% width.",
+      "transparent": true,
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-8a6dba22-0de5-4274-bbaf-0cef3c7b6c56.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-ingredients-truffle-v4.png"
+    },
+    {
+      "key": "ingredients-pepper",
+      "prompt": "Photorealistic studio food photograph cutout for premium mayo ingredient section. Only one real aged black garlic bulb split open exposing dark nearly black glossy cloves, two loose black garlic cloves beside it and a small cluster of natural black peppercorns. Compact balanced horizontal group, eye-level three-quarter view, all objects fully visible. Neutral soft light, natural papery ivory skin and deep dark cloves. Transparent background, no floor, no plate, no shadows extending outside objects, no text, no bottle, no herbs, no other ingredients. Landscape 3:2 fills 85% width.",
+      "transparent": true,
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-96fdc441-0732-48c7-ad62-8d8a9ef27cdc.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-ingredients-pepper-v4.png"
+    },
+    {
+      "key": "food-bread",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/5.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/truffle-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY the actual sauce color/texture reference. Extract two slices of toasted rustic bread with cream mayo spread generously over the top from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Keep the exact recognizable photographed food with realistic crisp detailed surfaces. Sauce must remain visibly spread on the food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2, not the packaging illustration. No giant lumps or thick flecks. Keep entire food group visible, compact centered group filling 86% of a square canvas, eye-level three quarter food photography. True transparent background with no ground plane, no haze, no text. This is a faithful photo edit, not a stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-e6a7f428-1792-4792-836a-faeb92e61e53.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-bread-v4.png"
+    },
+    {
+      "key": "food-fries",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/8.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/truffle-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY the actual sauce color/texture reference. Extract a compact heap of golden French fries topped with cream mayo from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Keep the exact recognizable photographed food with realistic crisp detailed surfaces. Sauce must remain visibly spread on the food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2, not the packaging illustration. No giant lumps or thick flecks. Keep entire food group visible, compact centered group filling 86% of a square canvas, eye-level three quarter food photography. True transparent background with no ground plane, no haze, no text. This is a faithful photo edit, not a stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-c8aaa6c5-017a-4b78-aa4b-9ce98652a43f.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-fries-v4.png"
+    },
+    {
+      "key": "food-steak",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/1.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/pepper-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY the actual sauce color/texture reference. Extract the grilled sliced steak with beige pepper mayo on top from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Keep the exact recognizable photographed food with realistic crisp detailed surfaces. Sauce must remain visibly spread on the food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2, not the packaging illustration. No giant lumps or thick flecks. Keep entire food group visible, compact centered group filling 86% of a square canvas, eye-level three quarter food photography. True transparent background with no ground plane, no haze, no text. This is a faithful photo edit, not a stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-d25b7290-b043-47d5-8ddb-49f66196b26b.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-steak-v4.png"
+    },
+    {
+      "key": "food-sausage",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/4.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/pepper-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY the actual sauce color/texture reference. Extract the group of grilled sausages with beige pepper mayo drizzled across them from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Keep the exact recognizable photographed food with realistic crisp detailed surfaces. Sauce must remain visibly spread on the food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2, not the packaging illustration. No giant lumps or thick flecks. Keep entire food group visible, compact centered group filling 86% of a square canvas, eye-level three quarter food photography. True transparent background with no ground plane, no haze, no text. This is a faithful photo edit, not a stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-a732ad7f-67a1-47b8-ab84-5e49ee2f915c.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-sausage-v4.png"
+    },
+    {
+      "key": "food-chicken",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/3.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/pepper-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY actual sauce color/texture reference. Extract crispy fried chicken strips topped with beige pepper mayo from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Preserve recognizable photographed food with realistic detailed surfaces. Sauce visibly spread on food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2. No giant lumps. Entire food group fully visible, complete silhouette no cropped edges, compact centered group filling 85% of square canvas, eye-level three-quarter food photography. True transparent background no ground plane no haze no text. Faithful food photo edit, not stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-99772459-674a-4251-a474-c0eb1b24ac38.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-chicken-v4.png"
+    },
+    {
+      "key": "food-salad",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/7.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/truffle-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY actual sauce color/texture reference. Extract a compact fresh mixed-leaf and mushroom salad topped with creamy mayo from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Preserve recognizable photographed food with realistic detailed surfaces. Sauce visibly spread on food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2. No giant lumps. Entire food group fully visible, complete silhouette no cropped edges, compact centered group filling 85% of square canvas, eye-level three-quarter food photography. True transparent background no ground plane no haze no text. Faithful food photo edit, not stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-cef263d9-2ec5-42db-bcbf-1397a55c120b.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-salad-v4.png"
+    },
+    {
+      "key": "food-potatoes",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/6.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/truffle-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY actual sauce color/texture reference. Extract a compact heap of golden roasted skin-on potato wedges topped with creamy mayo from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Preserve recognizable photographed food with realistic detailed surfaces. Sauce visibly spread on food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2. No giant lumps. Entire food group fully visible, complete silhouette no cropped edges, compact centered group filling 85% of square canvas, eye-level three-quarter food photography. True transparent background no ground plane no haze no text. Faithful food photo edit, not stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-22e2bed8-840b-4445-965f-079efd0cc40f.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-potatoes-v4.png"
+    },
+    {
+      "key": "food-hotdog",
+      "refs": [
+        "D:/OneDrive/윤경/7. 마요/이미지/19.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/truffle-pour-original.jpg"
+      ],
+      "prompt": "Use case: background-extraction. Image1 is the food photo to edit; image2 is ONLY actual sauce color/texture reference. Extract one whole hot dog in a golden bread roll with a wavy stripe of creamy mayo from image1 as a large high resolution photographic cutout. Remove hand, bottle, pouring stream in midair, all plates, boards, utensils, table, background, and separate ingredient props. Preserve recognizable photographed food with realistic detailed surfaces. Sauce visibly spread on food, naturally opaque creamy glossy, fine irregular specks; match sauce on bread in image2. No giant lumps. Entire food group fully visible, complete silhouette no cropped edges, compact centered group filling 85% of square canvas, eye-level three-quarter food photography. True transparent background no ground plane no haze no text. Faithful food photo edit, not stylized illustration.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-f9ad4f64-8998-4a45-93af-b49605aac63c.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-food-hotdog-v4.png"
+    },
+    {
+      "key": "front-pepper",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-pepper-v4.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/references/actual-front-pepper.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: precise-object-edit. Image1 is the cutout to correct. Image2 is the actual label source. Keep bottle shape, cap, edges, transparency, composition and lighting IDENTICAL to image1. Correct only printed label text to match actual product in image2: small red brand at upper center must be MINES (not MINTS). Small word after MAYO must be SALTY (not SAUCE). Bottom text exactly: 흑마늘페퍼마요 280g(575kcal) then 흑마늘추출액[흑마늘농축액18.6%, then 흑마늘(국산)]0.001%, then 후추(흑후추100%, 베트남산)2%. Preserve white/gold lettering and typography and all other label elements. True transparent background. Do not invent any extra letters or percentages.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-3b296e4f-8c50-4e08-8dea-6c7d2a6aee19.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-pepper-v4.png"
+    },
+    {
+      "key": "concept-cream",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-cream-v4.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-pepper-v4.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is the concept photograph to correct; Image2 is the authoritative pepper bottle label. Keep entire scene, geometry, sleeve and cap shapes, lighting, food and composition unchanged. ONLY correct the tiny print on the black/gold pepper bottle in image1 to match image2, particularly incorrect calorie number. Exact: MINES; EASY MAYO; 흑마늘페퍼마요; BLACK GARLIC PEPPER; MAYO SALTY. Bottom line: 흑마늘페퍼마요 280g(575kcal), NOT 1,575. Then 흑마늘추출액[흑마늘농축액18.6%, 흑마늘(국산)]0.001%, 후추(흑후추100%, 베트남산)2%. Faithfully transfer lettering from reference with perspective matching. Do not change beige bottle or rest of image.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-0e45c110-f55a-4b85-960a-2dca98630986.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-cream-v4.png"
+    },
+    {
+      "key": "concept-taupe",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-taupe-v4.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-pepper-v4.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is the concept photograph to correct; Image2 is the authoritative pepper bottle label. Keep entire scene, geometry, sleeve and cap shapes, lighting, food and composition unchanged. ONLY correct the tiny print on the black/gold pepper bottle in image1 to match image2, particularly incorrect calorie number. Exact: MINES; EASY MAYO; 흑마늘페퍼마요; BLACK GARLIC PEPPER; MAYO SALTY. Bottom line: 흑마늘페퍼마요 280g(575kcal), NOT 1,575. Then 흑마늘추출액[흑마늘농축액18.6%, 흑마늘(국산)]0.001%, 후추(흑후추100%, 베트남산)2%. Faithfully transfer lettering from reference with perspective matching. Do not change beige bottle or rest of image.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-6cd4fc86-6c78-460e-a50a-0fa54b007d81.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-taupe-v4.png"
+    },
+    {
+      "key": "concept-brown",
+      "refs": [
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-brown-v4.png",
+        "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-front-pepper-v4.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is the concept photograph to correct; Image2 is the authoritative pepper bottle label. Keep entire scene, geometry, sleeve and cap shapes, lighting, food and composition unchanged. ONLY correct the tiny print on the black/gold pepper bottle in image1 to match image2, particularly incorrect calorie number. Exact: MINES; EASY MAYO; 흑마늘페퍼마요; BLACK GARLIC PEPPER; MAYO SALTY. Bottom line: 흑마늘페퍼마요 280g(575kcal), NOT 1,575. Then 흑마늘추출액[흑마늘농축액18.6%, 흑마늘(국산)]0.001%, 후추(흑후추100%, 베트남산)2%. Faithfully transfer lettering from reference with perspective matching. Do not change beige bottle or rest of image.",
+      "generated": "C:\\Users\\admin\\.codex\\generated_images\\01a1be82-5b07-7d03-8040-64aed7ae2ac9\\exec-6b1f1581-9edc-4a73-a343-1a54424f0961.png",
+      "saved": "D:/OneDrive/윤경/아임웹/easy-mayo-staging/web/easy-mayo-concept-brown-v4.png"
+    }
+  ]
+}

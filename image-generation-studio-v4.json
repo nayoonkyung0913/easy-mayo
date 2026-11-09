@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "selected": [
+    {
+      "file": "easy-mayo-front-truffle-studio-v4.png",
+      "prompt": "Precise product photo edit. Use image1 as target for polished studio front photo and image2 as definitive physical construction reference. Product has TWO DIFFERENT geometries: (A) FRONT PAPER BOX/SLEEVE is a perfectly plain tall RECTANGLE with straight vertical left and right edges, straight top and bottom, square corners. DO NOT CURVE OR PINCH THE PRINTED RECTANGULAR PAPER PANEL. (B) Behind that rectangle is a soft PLASTIC MAYONNAISE BOTTLE whose exposed left and right sides have identical real gently concave waist and lower bulging curves, visible around the straight paper edges. At upper shoulder and lower belly, plastic projects just slightly beyond sleeve by roughly 5% of panel width on each side, while at waist it is hidden behind panel. Copy this subtle physical construction from actual photo2. Keep cap from image1 smooth round wide short white cap with flat disc lid, no front bowtie. Restore fresh premium bright symmetric studio softbox lighting, sharp front-facing centered upright product, transparent alpha background. Preserve all front typography and artwork from image1 unchanged including MINES EASY MAYO 트러플표고마요 and 280g(1,655kcal). One bottle only. Same canvas and framing. No props, no backdrop. Straight RECTANGULAR printed package covering a gently CURVED plastic bottle; never an hourglass printed package."
+    },
+    {
+      "file": "easy-mayo-front-pepper-studio-v4.png",
+      "prompt": "Precise product-label edit. Image1 is the APPROVED GEOMETRY MASTER. Keep its exact silhouette and canvas placement, every curve of the exposed beige plastic body, its identical smooth white cap, and the perfectly RECTANGULAR front paper box panel (straight parallel sides, square corners). DO NOT CURVE THE PAPER PACKAGE. Both flavors have identical bottle mold. Change ONLY the print inside the rectangular front paper panel to the black garlic pepper variant from image2. Professional bright studio catalog photo, transparent alpha. Preserve exact position and height of cap, package, waist, bottom and width of curved exposed body from image1. Label black with gold diagonal brush graphics; MINES red; EASY MAYO white; '흑마늘페퍼마요' gold; 'BLACK GARLIC PEPPER' and 'MAYO SALTY'; '연출된 예'; steak/mayo/garlic illustration lower front as image2. Bottom text '흑마늘페퍼마요 280g(575kcal)' plus original small ingredient lines. Do not add bowtie decoration to cap. No perspective/tilt, no props or groundshadow. Image1 rectangular paper box and curved underlying bottle geometry must be preserved exactly, with only the label print switched."
+    }
+  ],
+  "geometry": "Straight rectangular paper sleeve; identical curved plastic bottles visible at sides; polished front studio packshots."
+}
