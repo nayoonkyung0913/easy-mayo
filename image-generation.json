@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "reference": "실촬영 truffle-pour-original.jpg",
+  "assets": [
+    {
+      "file": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\web\\easy-mayo-squeeze-truffle-v1.png",
+      "purpose": "왼쪽 위의 큰 제품 / 투명 배경",
+      "prompt": "Isolate ONLY the inverted cream-label TRUFFLE MUSHROOM EASY MAYO squeeze bottle. Remove the hand, all background, the black-label bottle, food, ingredients, and sauce stream. Keep packaging design, label letters, colors, proportions, realistic open cap, nozzle downward. Reconstruct the small area hidden by the hand. Follow-up: remove all surrounding halo and preserve the exact product silhouette, every outside pixel alpha 0."
+    },
+    {
+      "file": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\web\\easy-mayo-truffle-sauce-texture-v1.png",
+      "purpose": "스크롤 reveal 소스의 질감 패턴",
+      "prompt": "Photorealistic square seamless extreme macro of ONLY cream sauce, based on the supplied real truffle mayo photograph. Warm pale cream beige base #FBDDAA, gentle glossy highlights and tiny sparse irregular brown flecks. Subtle variation, no stripes, chunks, bread, herbs, bottle, lettering, background or borders. Real opaque smooth emulsified mayonnaise."
+    }
+  ]
+}

@@ -1,17 +1,24 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "source_commit": "4825215e54a673492e1331c73f99a67d7ae73c00",
   "source_body": "nayoonk/extras/kazak/cream-crunch/body.txt",
   "source_css_sha256": "994dda5aed40ad036fe45ca7b6fe1bb7ba55aad6b860c498d44c3f41a9329a81",
   "source_js_sha256": "70c203b3c99423365a6be0904d40a0168766fbf58e706512d150aaf63856fee2",
   "js_allowed_changes": [
-    "namespace only",
-    "total content 280g"
+    "namespace",
+    "280g content",
+    "new paintSqueeze scroll progress and reduced-motion fallback"
   ],
   "layout_adaptations": [
     "two product cards instead of three sizes",
     "two flavor tabs instead of five",
     "asset URLs and temporary CSS photo clipping only"
   ],
-  "motion": "Copied source logic without changes to durations, easing, distances, sticky scenes, event listeners, or accessibility behavior."
+  "motion": "Kazak hero, gallery, rail, recipe, flavor tabs retained. Texture motion replaced by scroll-driven sauce reveal per user instruction.",
+  "user_changes": [
+    "마요 크림·베이지·브라운 컬러",
+    "중복 풍미 레일 제거 및 3단계 사용법에 기존 pinned rail 이동",
+    "제품을 왼쪽 위에 크게 배치하고 스크롤로 소스가 이어지는 reversible squeeze scene",
+    "사용자 패키지 후면 표시사항 전사"
+  ]
 }
