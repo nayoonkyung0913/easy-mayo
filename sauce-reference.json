@@ -1,0 +1,155 @@
+{
+  "version": "0.1.0",
+  "date": "2026-11-09",
+  "priority": "User-supplied real photographs are the primary sauce color and texture reference. Earlier AI scenes are composition references only.",
+  "sampling_note": "Median RGB from 8x8 areas in 1280x1920 reference coordinates, mapped to source pixels. Photo appearance includes lighting and white balance; not calibrated physical color. Original photographs remain authoritative.",
+  "references": [
+    {
+      "id": "truffle",
+      "source": "truffle-pour-original.jpg",
+      "sha256": "2a695d53fa4167fc973390858bfeecce6611e97888a04168d8eea6c71b1c20e9",
+      "size": [
+        3126,
+        4689
+      ],
+      "palette": {
+        "base": {
+          "hex": "#FBDDAA",
+          "rgb": [
+            251,
+            221,
+            170
+          ],
+          "source_center_px": [
+            1983,
+            3570
+          ],
+          "sample_box_reference_1280x1920": [
+            808,
+            1458,
+            816,
+            1466
+          ]
+        },
+        "light": {
+          "hex": "#FEE1B0",
+          "rgb": [
+            254,
+            225,
+            176
+          ],
+          "source_center_px": [
+            2540,
+            3431
+          ],
+          "sample_box_reference_1280x1920": [
+            1036,
+            1401,
+            1044,
+            1409
+          ]
+        },
+        "shade": {
+          "hex": "#EACB9D",
+          "rgb": [
+            234,
+            203,
+            157
+          ],
+          "source_center_px": [
+            2613,
+            3529
+          ],
+          "sample_box_reference_1280x1920": [
+            1066,
+            1441,
+            1074,
+            1449
+          ]
+        }
+      },
+      "texture_crop_reference_1280x1920": [
+        660,
+        1390,
+        1230,
+        1510
+      ]
+    },
+    {
+      "id": "pepper",
+      "source": "pepper-pour-original.jpg",
+      "sha256": "df45b310a196e79b6c06f5ffb1998e29cde0ef3deb2285ffca359a8505fecc29",
+      "size": [
+        3453,
+        5180
+      ],
+      "palette": {
+        "base": {
+          "hex": "#CAB190",
+          "rgb": [
+            202,
+            177,
+            144
+          ],
+          "source_center_px": [
+            2231,
+            3599
+          ],
+          "sample_box_reference_1280x1920": [
+            823,
+            1330,
+            831,
+            1338
+          ]
+        },
+        "light": {
+          "hex": "#F3D4A6",
+          "rgb": [
+            243,
+            212,
+            166
+          ],
+          "source_center_px": [
+            1422,
+            3742
+          ],
+          "sample_box_reference_1280x1920": [
+            523,
+            1383,
+            531,
+            1391
+          ]
+        },
+        "shade": {
+          "hex": "#B0895F",
+          "rgb": [
+            176,
+            137,
+            95
+          ],
+          "source_center_px": [
+            1961,
+            3639
+          ],
+          "sample_box_reference_1280x1920": [
+            723,
+            1345,
+            731,
+            1353
+          ]
+        }
+      },
+      "texture_crop_reference_1280x1920": [
+        385,
+        1300,
+        950,
+        1455
+      ]
+    }
+  ],
+  "texture": {
+    "shared": "Opaque emulsified creamy sauce, glossy rounded highlights, connected squeeze stream, soft folds that spread on the food. Visible irregular small dark flecks; preserve their real density.",
+    "truffle": "Light warm cream beige, subtle yellow warmth, sparse small flecks.",
+    "pepper": "Warmer and darker golden tan beige, visible irregular dark flecks. Keep the photographed brightness and soft flow."
+  }
+}
