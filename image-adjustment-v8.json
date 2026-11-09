@@ -1,0 +1,10 @@
+{
+  "version": "0.5.3",
+  "scope": "Only truffle mushroom concept photos: fries and toast",
+  "cause": "The original photo overlay retained a short angled sauce stump, which overlapped the retouched continuous stream at the outlet.",
+  "method": "Edit the existing native SVG composition: mask only the stale outlet/sauce overlay and reveal the already-retouched continuous stream beneath it. No image generation or raster pixel changes.",
+  "overlay_mask_source_coordinates": {"x":852,"y":1160,"width":62,"height":80,"radius":6,"feather_sigma":2},
+  "source_assets": ["easy-mayo-concept-fries-real-v6.svg", "easy-mayo-concept-toast-real-v6.svg"],
+  "final_assets": ["easy-mayo-concept-fries-real-v8.svg", "easy-mayo-concept-toast-real-v8.svg"],
+  "preserved": ["Original raster product and label data", "Food and sauce texture", "Black garlic pepper photo", "Usage closeups", "Kazak gallery dimensions", "All interaction logic"]
+}
