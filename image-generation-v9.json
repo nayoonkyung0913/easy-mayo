@@ -1,0 +1,32 @@
+{
+  "method": "built-in image_gen",
+  "prompts": {
+    "steak": "Use case: precise-object-edit.\nImage 1 is the EDIT TARGET: a wide steak photograph with a hand squeezing MINES EASY MAYO black garlic pepper mayo onto the steak. Image 2 is the actual sauce COLOR AND TEXTURE REFERENCE only.\nChange only the exposed sauce in image 1 (the falling stream and the sauce on the steak). Match the real sauce of image 2: muted medium caramel-tan beige, a warm brown-beige emulsion rather than peach/orange or pale ivory. Approximate photo midtone #CAB190 with brown shaded folds #B0895F, not a flat color overlay. Fine irregular dark pepper specks within the sauce. Smooth thick yet flowing mayonnaise, soft low rounded folds spreading naturally over the meat, restrained natural moist gloss. Reduce the tall stiff whipped piping appearance. Keep a continuous narrow stream emerging directly from the bottle outlet to the sauce on the steak, with realistic gravity and no plastic-like extra tip or disconnected blobs.\nPreserve the exact original food, meat details, potato wedges, plate, background, hand, bottle shape, white flip cap, and every packaging label letter. Preserve camera crop and wide 1672:941 composition. Do not replace the scene with the reference image. No new objects, text, borders or watermark. Photorealistic localized retouch.",
+    "toast": "Use case: precise-object-edit / compositing.\nImage 1 is the EDIT TARGET: mushroom and egg toast with an inverted MINES EASY MAYO truffle product. Image 2 is the EXACT REFERENCE for the product's white closure/cap and sauce exit. The user specifically requires the toast bottle and cap to look exactly like the fries photograph.\nRetain the original asymmetric ribbed white collar, stepped underside with the shallow rectangular outlet lip, and broad oval flip lid lying closely behind the flowing sauce, as shown in image 2. Keep the identical cap geometry and opening construction; do not replace it with a generic round screw cap, flat oval bottom, small hinged lid or new nozzle. The bottle's rectangular printed paper sleeve and curved plastic body are also unchanged.\nOnly repair the tiny sauce connection at the outlet on image 1 so it matches the smooth continuous exit in image 2: sauce emerges directly under the EXISTING short outlet lip, gently curves downward and joins the existing sauce on toast. Remove any doubled beige stump, rectangular compositing fragment or abrupt segmented kink at the top of the liquid. Match the thin cream-beige strand and fine flecks in image 2. Do not add a long protruding tube. This is an extremely local correction; keep the white cap design like the reference, not a cap redesign.\nPreserve all food, mushrooms, egg, toast, lighting, steam, flying garnish, hand, package position, camera and wide crop of image 1. Preserve every printed word/logo. Output the edited toast scene only, no collage, annotations, circles, extra text or borders."
+  },
+  "assets": {
+    "steak": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\references\\steak-sauce-retouch-v9.png",
+    "toast": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\references\\toast-outlet-matched-v9.png",
+    "final_compositions": [
+      "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\web\\easy-mayo-concept-steak-real-v9.svg",
+      "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\web\\easy-mayo-concept-toast-real-v9.svg",
+      "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\web\\easy-mayo-pour-bottle-v9.svg",
+      "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\web\\easy-mayo-pour-flow-v9.svg"
+    ]
+  },
+  "version": "0.5.4",
+  "rejected": {
+    "toast": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\references\\toast-outlet-retouch-v9.png",
+    "reason": "Earlier retouch changed cap geometry. User requires same cap as fries."
+  },
+  "composition": {
+    "steak": "Keep original photographed product, hand and cap overlays above the generated sauce retouch.",
+    "toast": "Keep original photographed printed product and hand overlay. Use the selected cap/outlet retouch matching the fries reference; do not overlay the old cap artifact.",
+    "pour": "Native SVG path editing only. Embed original 3126x4689 photograph and use curved clipping boundaries. Separate unchanged product silhouette from the actual photographed sauce strip; animate only sauce reveal."
+  },
+  "references": {
+    "sauce_color": "D:/OneDrive/윤경/1.촬영/8. 260317/KakaoTalk_20260317_152248476.jpg",
+    "cap": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\references\\fries-flow-retouch-v6.png",
+    "product": "D:\\OneDrive\\윤경\\아임웹\\easy-mayo-staging\\references\\truffle-pour-original.jpg"
+  }
+}

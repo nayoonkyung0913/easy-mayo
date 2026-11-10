@@ -1,0 +1,1074 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Jua&display=swap");
+@font-face { font-family:"Allura"; src:url("fonts/allura-full.woff2") format("woff2"); font-weight:400; font-display:swap }
+@font-face { font-family:"Gowun Batang"; src:url("fonts/gowunbatang-bold-full.woff2") format("woff2"); font-weight:700; font-display:swap }
+@font-face { font-family: "Easy Mayo Pretendard 0.5.4"; src: url("fonts/pretendard-variable.woff2") format("woff2"); font-style: normal; font-weight: 100 900; font-display: swap; }
+/* Only the marked description extends beyond the shop's content column. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] {
+  display: block;
+  box-sizing: border-box;
+  max-width: none;
+  min-width: 0;
+  margin-left: var(--em-viewport-offset, 0px);
+  margin-right: 0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"]{--orange:#E7CDA5;--cream:#FFF9ED;--em-yellow-bg:#F7EEDC;--ink:#2c1a11;--red:#51402F;color:var(--ink);background:var(--em-yellow-bg);font-family:"Easy Mayo Pretendard 0.5.4",-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;word-break:keep-all;position:relative;isolation:isolate;width:var(--em-viewport-width,100%);overflow:clip;container:em-detail / inline-size}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] *{box-sizing:border-box}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] h1,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] h2,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] h3,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] p,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] figure{margin:0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] button,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] a{font:inherit;color:inherit}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] button{cursor:pointer}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] a{text-decoration:none}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] button:focus-visible,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] a:focus-visible,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] summary:focus-visible{outline:3px solid #111;outline-offset:5px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .photo{width:100%;display:block;position:relative}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .photo>img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:none;margin:0;border:0;object-fit:contain}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-card .photo>img,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid .photo>img,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe>.photo>img{object-fit:cover}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo .photo>img{object-position:center bottom}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .wrap{width:min(1180px,88%);margin:auto}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .eyebrow{font-size:clamp(18px,1.45cqw,22px);font-weight:700;letter-spacing:.14em;margin-bottom:22px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .title{font-size:clamp(30px,5.6vw,75px);font-weight:800;line-height:1.18;letter-spacing:-.055em}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .copy{font-size:clamp(15px,1.5vw,19px);line-height:1.85;margin-top:24px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .center{text-align:center}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .pad{padding:110px 0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero{background:var(--orange);min-height:850px;height:110vh;max-height:1200px;position:relative;display:grid;place-items:center;text-align:center;color:#FFF9ED}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .brandbar{position:absolute;top:24px;left:5%;right:5%;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.14em;z-index:3}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .brandbar b{font-size:24px;letter-spacing:-.06em}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-type{position:absolute;top:14%;left:0;width:100%;font-size:clamp(76px,16vw,230px);line-height:.85;letter-spacing:-.075em;font-weight:900}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-type span{display:block;font-size:.49em;letter-spacing:-.045em;margin-top:.35em}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-art{position:absolute;top:30%;width:clamp(210px,30vw,370px);transform:translateY(var(--hy,0px)) rotate(var(--hr,-7deg));will-change:transform}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption{position:absolute;bottom:5%;left:5%;right:5%}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption h1{font-size:clamp(21px,2.7vw,36px);font-weight:700;line-height:1.4;letter-spacing:-.04em}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption a{display:inline-block;margin-top:18px;font-size:11px;letter-spacing:.15em;border-bottom:1px solid;padding:7px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .intro{padding:110px 20px 65px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .intro .copy{max-width:540px;margin:25px auto 0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:35px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-links a{border:1px solid #2c1a1155;border-radius:999px;padding:9px 22px;font-size:12px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery{padding:10px 0 90px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-track{--gallery-gap:clamp(12px,2vw,24px);overflow:hidden;scrollbar-width:none;padding:25px 0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-track::-webkit-scrollbar{display:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-belt{display:flex;width:max-content}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .gallery-belt{animation:kazak-3-0-2-gallery-loop 64s linear infinite}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-group{display:flex;align-items:stretch;flex:none;gap:var(--gallery-gap);padding-right:var(--gallery-gap)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-card{flex:none;width:max(220px,35vw)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-card .photo{aspect-ratio:4/3;height:auto;background-size:cover}
+@keyframes kazak-3-0-2-gallery-loop{to{transform:translateX(-50%)}}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .gallery-belt{animation-play-state:paused}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls{display:flex;justify-content:space-between;align-items:center;width:88%;margin:15px auto 0;font-size:11px;letter-spacing:.14em;gap:12px;flex-wrap:wrap}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls button{border:1px solid;border-radius:50%;background:none;width:42px;height:42px;font-size:20px;margin-left:8px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls .motion{display:none;width:auto;height:42px;border-radius:30px;padding:0 14px;font-size:12px;vertical-align:middle}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .gallery-controls .motion{display:inline-block}
+@media(prefers-reduced-motion:reduce){
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-track{overflow-x:auto}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-group[aria-hidden=true]{display:none}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls .motion{display:none!important}
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture{position:relative;background:var(--orange);color:var(--cream)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-sticky{padding:clamp(44px,7vw,90px) 5% 0;text-align:center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo{width:min(100%,760px);height:clamp(260px,68svh,620px);margin:clamp(24px,5vw,56px) auto 0;display:grid;place-items:end center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo .photo{width:92%;height:90%;aspect-ratio:auto;background-size:contain;background-position:center bottom;transform:scale(var(--ts,1));transform-origin:center bottom;will-change:transform}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture h2,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture .eyebrow{position:relative;z-index:2}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredients{display:grid;grid-template-columns:1fr 1fr;gap:7%;margin-top:60px;align-items:center}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredient h3{font-size:25px;margin-top:20px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredient strong{font-size:60px;letter-spacing:-.06em;color:var(--orange)}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredient p{font-size:15px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .note{font-size:12px;opacity:.65;margin-top:25px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process{background:#FBF4E7;color:#1b100c;padding:190px 0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid {
+  display: grid;
+  gap: clamp(30px, 5.2cqw, 76px);
+  margin-top: clamp(30px, 5cqw, 64px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  align-items: center;
+  gap: clamp(18px, 4cqw, 58px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid .photo {
+  grid-area: 1 / 2;
+  aspect-ratio: 16 / 10;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid h3 {
+  grid-area: 1 / 1;
+  font-size: clamp(22px, 3.3cqw, 47px);
+  line-height: 1.14;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) .photo { grid-column: 1; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) h3 { grid-column: 2; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid small {
+  display: block;
+  margin-bottom: 10px;
+  font-size: clamp(12px, 1.4cqw, 18px);
+  letter-spacing: .12em;
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ticker{overflow:hidden;background:var(--red);color:var(--cream);padding:23px 0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ticker-run{display:flex;width:max-content;animation:kazak-3-0-2-ticker 30s linear infinite}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ticker span{font-size:clamp(30px,5vw,60px);font-weight:800;letter-spacing:-.04em;white-space:nowrap;padding-right:50px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ticker:hover .ticker-run,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .ticker-run{animation-play-state:paused}@keyframes kazak-3-0-2-ticker{to{transform:translateX(-50%)}}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes{padding:100px 0;background:var(--em-yellow-bg);background-image:radial-gradient(#e6c4a3 .8px,transparent .8px);background-size:20px 20px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe{display:grid;grid-template-columns:1.1fr 1fr;gap:9%;align-items:center;margin-top:80px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe>.photo{aspect-ratio:4/3;background-size:cover;background-position:center;transform:rotate(var(--em-recipe-angle,0deg));transform-origin:center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .recipe>.photo{transform:none}
+@media(prefers-reduced-motion:reduce){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe>.photo{transform:none}}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe:nth-child(odd){grid-template-columns:1fr 1.1fr}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe:nth-child(odd) .photo{order:2}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe-card{background:var(--em-yellow-bg);padding:40px;transform:rotate(var(--card-rotate,4deg));transition:transform .35s}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe:nth-child(odd) .recipe-card{--card-rotate:-4deg}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe:hover .recipe-card{transform:rotate(0deg)}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe h3{font-size:clamp(26px,3.2vw,45px);line-height:1.2;letter-spacing:-.04em}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe .copy{font-size:15px;margin-top:18px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors{padding:200px 0;transition:background .5s;background:var(--flavor-bg,#E9DDC7)}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin:35px auto 50px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar button{background:none;border:1px solid #2c1a1155;border-radius:999px;padding:12px 22px;font-size:14px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar button[aria-selected=true]{background:var(--ink);color:var(--cream);border-color:var(--ink)}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:10%;margin-bottom:45px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .photo{max-width:480px;margin:auto}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel h3{font-size:clamp(36px,6vw,80px);letter-spacing:-.06em;line-height:1.15}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .en{font-size:13px;letter-spacing:.13em;margin-bottom:20px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel[hidden]{display:none!important}
+/* 맛을 바꿔도 가장 큰 패널의 높이를 유지합니다. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .flavor-stage{display:grid;min-width:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .flavor-stage>.flavor-panel{grid-area:1/1;min-width:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .flavor-stage>.flavor-panel[hidden]{display:grid!important;visibility:hidden;pointer-events:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar{display:none}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .tabbar{display:flex}
+/* 상품정보: 원본 접이식 표 */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info {
+  --em-ink: #271d17;
+  --em-info-background: #FBF4E7;
+  --em-red: #8B6848;
+  --em-gutter: clamp(18px, 4.8%, 84px);
+  container: em-product-info / inline-size;
+  color: var(--em-ink);
+  text-align: left;
+  line-height: 1.45;
+  overflow-wrap: break-word;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info :where(h2,p,dl,dt,dd,ul,li) {margin:0;padding:0;font:inherit;color:inherit;text-align:inherit;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info summary {font-family:inherit;line-height:1.2;letter-spacing:inherit;text-transform:none;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info-head h2 {
+  font-weight: 780; font-size: clamp(36px,5.6cqw,85px); line-height: 1; letter-spacing: -.08em; color: var(--em-ink);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-dot { color: var(--em-red); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info { display: grid; grid-template-columns: minmax(0,1fr); gap: clamp(28px,5cqw,78px); padding: clamp(56px,7cqw,110px) var(--em-gutter); background: var(--em-info-background); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info-head p { margin-top: 15px; font-size: clamp(16px,1.45cqw,22px); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info-list { width: min(100%, 820px); justify-self: center; min-width: 0; border-top: 1px solid var(--em-ink); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label { margin: 0; border-bottom: 1px solid #bfb399; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label summary {
+  display: flex; justify-content: space-between; gap: 1em; align-items: center; padding: clamp(17px,2cqw,28px) 0;
+  color: var(--em-ink); cursor: pointer; list-style: none; font-size: clamp(18px,1.8cqw,28px); font-weight: 650;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label summary::-webkit-details-marker { display: none; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label summary::after { content: "+"; font-weight: 400; font-size: 1.3em; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label[open] > summary::after { content: "−"; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label-body { padding: 0 0 22px; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label-body p { font-size: 15px; line-height: 1.6; margin-bottom: 10px; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-specs { margin: 0 0 22px; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-specs > div { display: grid; grid-template-columns: minmax(78px,24%) minmax(0,1fr); gap: 12px; padding: 9px 0; border-top: 1px solid #ded5bf; font-size: clamp(14px,1.12cqw,17px); line-height: 1.6; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-specs dt { font-weight: 680; color: #493a2d; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-specs dd { word-break: normal; overflow-wrap: anywhere; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition { width: 100%; min-width: 0; table-layout: fixed; border: 0; border-collapse: collapse; margin: 0; background: none; font: inherit; font-size: clamp(13px,1.12cqw,17px); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition th, :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition td { width: auto; padding: 7px 6px; color: inherit; background: transparent; border: 0; border-bottom: 1px solid #d6cbb5; text-align: right; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition th:first-child { text-align:left; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition caption { padding: 0 0 7px; color: inherit; font-size: 1.08em; font-weight: 720; text-align: left; caption-side: top; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition thead { background: #eee3c9; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition tbody th { font-weight: 500; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label-body .em-note { margin: 8px 0; color: #645748; font-size: 13px; line-height: 1.5; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-cautions { padding-left: 1.15em; margin: 0; list-style: disc; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-cautions li { margin: 0 0 .4em; }
+@container em-product-info (max-width: 680px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info {grid-template-columns:1fr;}
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .enter{animation:kazak-3-0-2-enter .8s ease-out both}@keyframes kazak-3-0-2-enter{from{opacity:.25;transform:translateY(26px)}to{opacity:1;transform:translateY(0)}}
+@container em-detail (max-width: 700px) {:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .pad{padding:70px 0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero{height:860px;min-height:0;max-height:none}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-type{top:14%;font-size:18cqw}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-art{top:36%;width:235px;transform:translateY(clamp(0px,var(--hy,0px),30px)) rotate(var(--hr,-7deg))}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption{bottom:5%}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .intro{padding:70px 6% 40px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .title{font-size:clamp(34px,9.5cqw,46px)}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .copy{font-size:18px;line-height:1.65}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-card{width:72cqw}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery{padding-bottom:45px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredients{grid-template-columns:1fr;gap:45px;margin-top:35px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredient .photo{max-width:380px;margin:auto}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredient strong{font-size:48px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process{padding:65px 0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes{padding:65px 0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe:nth-child(odd){grid-template-columns:1fr;gap:32px;margin-top:52px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe:nth-child(odd) .photo{order:0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe-card{padding:27px;width:90%;margin:auto}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors{padding:65px 0}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar{gap:7px;margin:25px auto 35px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar button{font-size:16px;min-height:44px;padding:9px 14px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel{grid-template-columns:1fr;gap:35px;text-align:center}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .photo{width:80%;max-width:340px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel h3{font-size:40px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .brandbar{font-size:12px;letter-spacing:.08em;align-items:center;gap:8px}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .brandbar b{font-size:23px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .eyebrow{font-size:17px;letter-spacing:.10em}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption h1{font-size:clamp(24px,6.5cqw,31px)}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption a{font-size:14px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-links a{font-size:15px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls{font-size:14px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls button{display:none!important}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ingredient p,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe .copy{font-size:18px;line-height:1.65}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe h3{font-size:clamp(28px,7.7cqw,36px)}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe>.photo{width:90%;margin-inline:auto}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .note,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .en,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid small{font-size:15px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info{grid-template-columns:1fr}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info-head p,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label-body p{font-size:17px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label summary{font-size:20px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-specs > div{font-size:16px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-label-body .em-note{font-size:15px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-sticky{padding-top:38px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo{height:clamp(180px,34svh,300px);margin-top:clamp(12px,4cqw,24px)}
+}
+@media(prefers-reduced-motion:reduce){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] *,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] *::before,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-art{transform:rotate(-5deg)}:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo .photo{transform:none;will-change:auto}}
+
+/* The feedback sections use the same viewport and motion behavior as 3.0.1. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-comparison {
+  padding: clamp(60px, 8cqw, 120px) 0;
+  background: var(--em-yellow-bg);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-grid,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid {
+  display: grid;
+  gap: clamp(16px, 3cqw, 36px);
+  margin-top: clamp(24px, 5cqw, 54px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr)); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card { grid-column: span 2; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card:where(:nth-child(n + 4)) { grid-column: span 3; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  padding: clamp(16px, 3cqw, 34px);
+  background: transparent;
+  border: 0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-card h3,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card h3,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient h3 { font-size: clamp(22px, 3.1cqw, 35px); line-height: 1.2; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-asset {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-asset > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin: 0;
+  object-fit: cover;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-asset-placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  background: repeating-linear-gradient(-45deg, #fff8 0 12px, #2c1a110a 12px 24px), #f6dfaa;
+  color: #4d2f21;
+  text-align: center;
+  font-size: clamp(13px, 1.5cqw, 16px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-card .em-asset > img,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-garnish > img { object-fit: contain; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core {
+  --em-milk-wave-height:clamp(160px,18cqw,280px);
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 86vh;
+  min-height: 86svh;
+  padding-block: clamp(72px, 10cqw, 145px);
+  padding-bottom:0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core::after {
+  content:"";
+  position:relative;
+  align-self:center;
+  flex:0 0 var(--em-milk-wave-height);
+  width:100cqw;
+  height:var(--em-milk-wave-height);
+  margin-top:auto;
+  pointer-events:none;
+  background:url("https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/kazak-milk-wave-b2db981b.png") center bottom / 100% 125% no-repeat;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredients {
+  align-items:start;
+  /* The milk is an in-flow footer, with space even for wrapped descriptions. */
+  margin-bottom:clamp(36px,5cqw,64px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient > .photo,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient > .em-asset {
+  width: 100%;
+  max-width: none;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: transparent;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient img { transition: transform .6s cubic-bezier(.2,.7,.25,1); }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient > :is(.photo, .em-asset):hover img { transform: scale(1.12); }
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient h3 { margin: 18px 0 8px; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making { margin-top: clamp(52px, 9cqw, 125px); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making > h3 { font-size: clamp(28px, 5cqw, 58px); line-height: 1.18; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making > h3,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card h3 { font-weight: 800; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-making .enter { animation: none; }
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card { min-width: 0; background: var(--em-making-color, #FBDDAA); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card .em-asset { aspect-ratio: 16 / 10; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-copy { padding: 20px; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-copy p { margin-top: 8px; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-copy p span { padding: 0 .12em; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-milk-wave { display: none !important; }
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-script {
+  font-family: "Caveat", "Brush Script MT", "Segoe Script", cursive;
+  font-size: clamp(38px, 6.4cqw, 98px);
+  font-style: italic;
+  font-weight: 700;
+  line-height: .95;
+  letter-spacing: -.045em;
+  color: #775436;
+  margin-bottom: .18em;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes .title,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe h3,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon h3 {
+  font-family: "Jua", "Easy Mayo Pretendard 0.5.4", sans-serif;
+  font-weight: 400;
+  letter-spacing: -.04em;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe-card { min-width: 0; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipe-card .em-recipe-script { font-size: clamp(34px, 5.4cqw, 76px); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe:nth-child(odd) > .photo { order: 0; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe:nth-child(even) > .photo { order: 2; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(24px, 6cqw, 80px);
+  padding: clamp(22px, 5cqw, 66px);
+  margin-top: clamp(54px, 10cqw, 142px);
+  background: #CAB190;
+  color: #24160c;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon .em-recipe-script { color: #fff3c6; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon h3 { font-size: clamp(34px, 6.2cqw, 76px); line-height: 1.08; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-visual {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  min-width: 0;
+  margin-inline: auto;
+  padding-inline-end: 24%;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .em-flavor-visual .photo { width: 100%; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-garnish {
+  position: absolute;
+  z-index: 1;
+  inset: auto 0 -3% auto;
+  width: 53%;
+  aspect-ratio: 1;
+  border: 1px solid transparent;
+  pointer-events: none;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-garnish > img {
+  inset: 7%;
+  width: 86%;
+  height: 86%;
+  filter: drop-shadow(0 8px 7px #39251535);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-garnish .em-asset-placeholder {
+  background: none;
+  font-size: clamp(12px, 1.35cqw, 17px);
+  font-weight: 650;
+  padding: 14%;
+}
+
+@container em-detail (width > 700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid {
+    width: 100cqw;
+    margin-inline: calc((100% - 100cqw) / 2);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process {
+    --em-process-inset: clamp(24px, 5.5cqw, 130px);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid h3 { padding-inline: var(--em-process-inset); }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid .photo { width: 25cqw; justify-self: end; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) .photo { justify-self: start; }
+
+
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] :is(.em-size-comparison, .recipes) > .wrap {
+    width: min(1720px, calc(100% - 2 * clamp(18px, 3.2cqw, 60px)));
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-card { padding: clamp(12px, 2cqw, 32px); }
+
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo {
+    width: min(100%, 1220px);
+    height: clamp(320px, 81svh, 820px);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .texture-photo .photo { width: 100%; height: 94%; }
+
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid,
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list {
+    width: 100cqw;
+    margin-inline: calc((100% - 100cqw) / 2);
+  }
+
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list > .recipe:nth-child(odd) {
+    grid-template-columns: minmax(0, 48fr) minmax(0, 52fr);
+    gap: 0;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list > .recipe:nth-child(even) {
+    grid-template-columns: minmax(0, 52fr) minmax(0, 48fr);
+    gap: 0;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe > .photo { width: 30cqw; justify-self: start; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe:nth-child(even) > .photo { justify-self: end; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe-card { margin-inline: clamp(22px, 5.5cqw, 100px); }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe > .em-asset img { object-fit: contain; }
+}
+
+@container em-detail (min-width: 1100px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(12px, 1.6cqw, 24px); }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid .em-making-card { grid-column: auto; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-copy { padding: 16px; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card h3 { font-size: clamp(20px, 2.2cqw, 29px); }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card.enter:nth-child(2) { animation-delay: .06s; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card.enter:nth-child(3) { animation-delay: .12s; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card.enter:nth-child(4) { animation-delay: .18s; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-card.enter:nth-child(5) { animation-delay: .24s; }
+}
+
+@container em-detail (max-width: 700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article,
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(n) h3 { grid-area: 1 / 1; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(n) .photo {
+    grid-area: 2 / 1;
+    width: 92%;
+    justify-self: end;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid > article:nth-child(even) .photo { justify-self: start; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process-grid small { display: inline; margin-inline-end: 6px; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-grid,
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid,
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon { grid-template-columns: minmax(0, 1fr); }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-grid .em-making-card { grid-column: auto; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe:nth-child(even) > .photo { order: 0; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-visual { width: 90%; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon .copy { margin-top: 12px; }
+}
+
+/* Center section headings independently of their cards and images. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .title,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process > .wrap > .eyebrow,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making > :is(.eyebrow, h3),
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon :is(.em-recipe-script, h3),
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-info-head { text-align: center; }
+
+/* Pin the texture scene while scroll position moves its transparent spoon. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-scroll {
+  height: 175svh;
+  background: #332A23;
+  color: #fff5d8;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(12px, 3vh, 38px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-stage .title {
+  margin: 0 6%;
+  color: #fff5d8;
+  text-align: left;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-scroll .em-spoon-image {
+  display: block;
+  width: min(94%, 1440px, 118svh);
+  height: auto;
+  aspect-ratio: 1672 / 941;
+  margin: 0 auto;
+  transform: translateX(var(--spoon-x, 0px));
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image > img {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-spoon-image { transform: none; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-spoon-scroll { height: auto; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-spoon-stage { position: relative; height: auto; padding: clamp(45px,7vw,100px) 0; }
+@container em-detail (max-width: 700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-scroll { height: 135svh; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-stage { height: 78svh; }
+}
+
+/* Keep process photos and captions together in the middle of the page. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-centered > .wrap { width: min(1320px, 90%); margin-inline: auto; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 2.4cqw, 34px); margin: clamp(32px, 4cqw, 60px) auto 0; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps article { min-width: 0; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps .photo { width: 100%; height: auto; aspect-ratio: 4/3; overflow: hidden; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps .photo img { width: 100%; height: 100%; object-fit: cover; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps h3 { display: flex; align-items: baseline; gap: .4em; border-top: 1px solid currentColor; padding: 12px 0 0; margin: 14px 0 0; font-size: clamp(20px, 2.1cqw, 32px); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps small { font-size: .65em; color: #000; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-centered .em-making { margin-top: clamp(54px, 7cqw, 100px); }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-centered .em-making > :is(h3,p) { text-align: center; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-making-centered .em-making-grid { width: 100%; margin-inline: auto; }
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core [data-image-slot="milk-base"] > img { object-fit: contain; }
+@container em-detail (max-width: 700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps { grid-template-columns: minmax(0,1fr); gap: 32px; max-width: 500px; }
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .em-ingredient-cutout {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: transparent;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .em-ingredient-cutout > img {
+  position: static;
+  display: block;
+  float: none;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+/* Balance the visible ingredient area, accounting for each PNG's clear edges. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-ingredient-cutout[data-image-slot="milk-base"] > img { width: 70%; }
+
+/* Full spoon, ingredient detail, and scroll-driven flavor tasting strip. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-stage .title {position:absolute;top:calc(clamp(16px,5svh,64px) + 36px);left:0;z-index:1}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-scroll .em-spoon-image {position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;margin:0;pointer-events:none}
+/* The visible cream mound is centered at (24%, 61%) in this PNG. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image > img {position:absolute;left:50%;top:50%;width:clamp(112%,176svh,178%);max-width:none;height:auto;max-height:none;transform:translate(-24%,-61%)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-spoon-scroll .em-spoon-stage {height:90svh;min-height:400px;padding:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredient h3, :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps h3 {font-weight:800}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-steps h3 {border:0; padding-top:0}
+@media (hover:hover) and (pointer:fine) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-ingredient-cutout > img {transition:transform .32s ease; transform-origin:center bottom}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-ingredient-cutout:hover > img {transform:scale(1.12)}
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story h3.em-rail-title {font-weight:800;font-size:clamp(50px,8cqw,112px);line-height:1.04;letter-spacing:-.065em;margin:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story .eyebrow {margin-bottom:.8em}
+@media (min-height:560px) and (prefers-reduced-motion:no-preference) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story {
+    height:220svh;
+    width:100cqw;
+    margin-inline:calc((100% - 100cqw) / 2);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-rail-stage {position:sticky;top:0;height:100svh;display:flex;flex-direction:column;justify-content:center;overflow:clip}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-rail-stage > :is(.em-rail-title, .eyebrow) {
+    text-align:center;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-grid {
+    display:grid;
+    width:100%;
+    grid-template-columns:repeat(5,minmax(0,1fr));
+    gap:clamp(6px,1cqw,18px);
+    margin:clamp(12px,2.5svh,32px) 0 0;
+    transform:translateX(var(--rail-x,0px));
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-card { grid-column:auto; animation:none; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-asset { aspect-ratio:4 / 5; max-height:37svh; }
+  @container em-detail (max-width:760px) {
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-grid {grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(70cqw,42svh);width:max-content;}
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-grid .em-making-card {grid-column:auto;}
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-grid .em-making-card:nth-child(n+4) {grid-column:auto;}
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-grid .em-asset {aspect-ratio:4 / 5; max-height:none;}
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-copy {padding:6px;}
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-copy h3 {font-size:clamp(16px,4.2cqw,23px);}
+    :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-flavor-story .em-making-copy p {margin-top:4px;font-size:13px;line-height:1.35;}
+  }
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes .em-recipe-list {width:min(90%,1420px);margin-inline:auto}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes .em-recipe-script {color:#8B6848;font:400 clamp(64px,8cqw,122px)/1.02 "Allura","Segoe Script",cursive;letter-spacing:-.025em}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes .recipe-card .em-recipe-script {font-size:clamp(50px,6.3cqw,94px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes .title, :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .recipes .recipe h3 {font-family:"Gowun Batang","Batang",serif;font-weight:700}
+@media(prefers-reduced-motion:reduce){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-ingredient-cutout > img {transition:none}}
+/* Center the cream on the new spoon photograph while showing the rim. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image > img[src*="kazak-spoon-texture-"] { width:104%; transform:translate(-48%,-60%); }
+
+/* Let touch users browse the size cards horizontally. */
+@container em-detail (max-width: 700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 84%;
+    gap: 14px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-grid::-webkit-scrollbar { display: none; }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-card {
+    scroll-snap-align: start;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-card:last-child {
+    scroll-snap-align: end;
+  }
+}
+/* Keep the approved food photograph intact and lengthen only the silver neck. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image:has(> img[src*="kazak-spoon-texture-studio-"]) {
+  --studio-spoon-width: 73.5%;
+  --studio-spoon-top: calc(50% + clamp(10px, 1.8svh, 20px));
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image > img[src*="kazak-spoon-texture-studio-"] {
+  width: var(--studio-spoon-width);
+  top: var(--studio-spoon-top);
+  clip-path: inset(0 16% 0 0);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image:has(> img[src*="kazak-spoon-texture-studio-"])::after {
+  content: "";
+  position: absolute;
+  top: var(--studio-spoon-top);
+  left: 50%;
+  width: var(--studio-spoon-width);
+  aspect-ratio: 3 / 2;
+  background: url("https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/truffle-texture-detail-6de77cde.jpg") center / contain no-repeat;
+  clip-path: inset(0 0 0 83.96%);
+  transform-origin: 84% 50%;
+  transform: translate(-48%, -60%) scaleX(2.2);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image > img[src*="truffle-texture-detail-"] {
+  width:109%;
+  top:calc(50% + clamp(10px,1.8svh,20px));
+  transform:translate(-18%,-53%);
+}
+@container em-detail (max-width:760px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-rail-line {display:block;}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-rail-title {text-align:center;font-size:clamp(32px,9cqw,60px);}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story .em-making-grid {
+    display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(70cqw,42svh);overflow-x:auto;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story .em-making-card {grid-column:auto;}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story .em-making-card .em-asset {aspect-ratio:4 / 5;max-height:none;}
+}
+/* Use the shorter studio photograph on narrow detail pages. */
+@container em-detail (max-width:760px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-spoon-image > img[src*="truffle-texture-detail-"] {
+    content:url("https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/truffle-texture-detail-6de77cde.jpg");
+    width:100%;
+    height:auto;
+    aspect-ratio:3 / 2;
+    transform:translate(-48%,-60%);
+  }
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide {background:#FBF4E7;color:#000;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide > .wrap {width:min(92%,1320px);margin-inline:auto;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-head {text-align:center;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-head .title {margin:.12em 0 0;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-swipe {display:none;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card {text-align:center;align-items:start;justify-items:center;gap:0;padding:10px 8px;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h3 {font-size:clamp(60px,7.6cqw,108px);font-weight:850;letter-spacing:-.075em;line-height:1;color:#8B6848;white-space:nowrap;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h3 small {font-size:.43em;margin-left:.1em;letter-spacing:-.04em;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset {width:100%;height:clamp(150px,19cqw,260px);margin:12px 0 16px;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h4 {font-size:clamp(20px,2.1cqw,30px);font-weight:800;line-height:1.25;}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card p {max-width:22em;margin:8px auto 0;font-size:clamp(15px,1.25cqw,18px);line-height:1.5;word-break:keep-all;}
+@container em-detail (min-width:701px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-grid {grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,2.4cqw,40px);}
+}
+@container em-detail (max-width:700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-swipe {display:block;margin:14px 0 0;font-size:14px;}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-grid {grid-auto-columns:54%;gap:8px;margin-top:24px;}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card {padding-inline:4px;}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h3 {font-size:clamp(44px,13cqw,64px);}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h4 {font-size:clamp(16px,4.4cqw,19px);}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card p {display:none;}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset {height:clamp(150px,42cqw,200px);}
+}
+@container em-detail (min-width: 1024px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide {
+    padding-block: clamp(120px, 11cqw, 180px);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset {
+    height: clamp(245px, 23cqw, 340px);
+  }
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors :is(.flavor-panel h3, .tabbar button) {
+  font-weight:800;
+}
+@container em-detail (min-width:1024px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel {
+    grid-template-columns:minmax(0,1.17fr) minmax(0,1fr);
+    column-gap:6%;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-flavor-visual {
+    max-width:650px;
+    padding-inline-end:10%;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .em-flavor-visual .photo {
+    max-width:590px;
+  }
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,48%);
+  gap: clamp(8px,1.4cqw,20px);
+  align-items: center;
+  text-align: left;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details .em-flavor-garnish {
+  position: relative;
+  inset: auto;
+  width: 100%;
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details .em-flavor-garnish > img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel .em-flavor-visual .photo {
+  aspect-ratio: 1 !important; /* Earlier Imweb bodies specify different ratios inline. */
+}
+@container em-detail (max-width:700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavor-panel {
+    grid-template-rows: max-content 1fr;
+    align-content: start;
+  }
+}
+
+@container em-detail (min-width:701px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details {
+    container-type: inline-size;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details h3 {
+    font-size: min(10cqw,68px);
+    white-space: nowrap;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .tabbar button {
+    white-space: nowrap;
+  }
+}
+@container em-detail (max-width:700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details h3 {
+    font-size: min(8.5cqw,40px);
+  }
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-pair {
+  display: grid;
+  grid-template-columns: 59% 41%;
+  align-items: end;
+  padding: 0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair > .em-jar-small {
+  /* Align the visible bases inside the two differently padded transparent PNGs. */
+  transform-origin: 50% 80.3%;
+  transform: translate(4%,8.5%) scale(1.404);
+}
+
+/* Center the ingredient, matched jars and flavor copy as one composition. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel:has(.em-jar-pair) {
+  grid-template-columns: minmax(0,20fr) minmax(0,48fr) minmax(0,32fr);
+  grid-template-areas: "ingredient jars description";
+  gap: clamp(10px,2cqw,28px);
+  width: min(100%,1160px);
+  margin-inline: auto;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair {
+  grid-area: jars;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details {
+  display: contents;
+  container-type: normal;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details > :first-child {
+  grid-area: description;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details .em-flavor-garnish {
+  grid-area: ingredient;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details h3 {
+  font-size: clamp(28px,4.7cqw,64px);
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-flavor-details .note {
+  display:none;
+}
+@container em-detail (max-width:700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel:has(.em-jar-pair) {
+    grid-template-columns: minmax(0,1fr);
+    grid-template-areas: "jars" "description";
+    row-gap: 32px;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-pair {
+    width:90%;
+    justify-self:center;
+    margin:0;
+    /* Compensate for the mini jar's transparent padding and enlargement. */
+    transform:translateX(-3.5%);
+  }
+  /* Mobile keeps the paired products and flavor copy without ingredient props. */
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details .em-flavor-garnish {
+    display:none;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details > :first-child {text-align:center;}
+}
+
+@container em-detail (min-width:701px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel:has(.em-jar-pair) {
+    grid-template-columns: minmax(0,1.4fr) minmax(0,1fr);
+    grid-template-rows:auto auto;
+    grid-template-areas: "jars description" "jars ingredient";
+    column-gap:clamp(48px,7cqw,100px);
+    row-gap:12px;
+    width:min(100%,1040px);
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-pair {
+    width:min(100%,520px);
+    justify-self:center;
+    margin:0;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details > :first-child {
+    align-self:end;
+  }
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair + .em-flavor-details .em-flavor-garnish {
+    grid-area:ingredient;
+    align-self:start;
+    justify-self:start;
+    width:min(48%,200px);
+    transform:none;
+  }
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-art:has(.em-hero-mini) {
+  translate: -25% 0;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-mini {
+  position: absolute;
+  left: 85%;
+  bottom: 4%;
+  width: 65%;
+  height: auto;
+  max-width: none;
+  transform: rotate(10deg);
+}
+@container em-detail (max-width:700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-art:has(.em-hero-mini) {
+    width: clamp(170px,53cqw,235px);
+  }
+}
+
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .em-recipe-spoon > .photo {
+  aspect-ratio: 2 / 3;
+  width: min(100%,420px);
+  justify-self:center;
+  background:transparent;
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-spoon > .photo img {object-fit:contain;}
+@container em-detail (max-width:700px) {
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .em-recipe-spoon > .photo {width:min(80%,300px);}
+}
+
+
+/* Approved hero: independent jars converge during a pinned scroll scene. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet{height:calc(clamp(640px,100svh,900px) + 80svh);position:relative}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero{position:sticky;top:0;height:clamp(640px,100svh,900px);min-height:0;max-height:none;overflow:clip}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-type{top:6%;font-size:clamp(76px,14cqw,194px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art{top:23%;left:50%;width:min(76cqw,600px,64svh);aspect-ratio:1.17;translate:none;transform:translateX(-50%);will-change:auto}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art > .photo{position:absolute;left:0;bottom:0;width:66%;aspect-ratio:675 / 896;transform:translateX(var(--meet-large-x,0px)) rotate(var(--meet-large-angle,-4deg));transform-origin:50% 90%;will-change:transform}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art > .em-hero-mini{position:absolute;left:46%;bottom:-7%;width:57%;height:auto;max-width:none;transform:translateX(var(--meet-small-x,0px)) rotate(var(--meet-small-angle,3deg));transform-origin:50% 80%;will-change:transform}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-caption{bottom:35px;left:5%;right:5%;text-align:center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-caption h1{font-size:clamp(24px,2.5cqw,32px);line-height:1.35}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-caption a{margin-top:10px}
+@container em-detail (max-width:700px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-type{top:calc(8% + 14px);font-size:15cqw}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art{top:29%;width:min(86cqw,440px,64svh)}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-caption{bottom:30px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-caption h1{font-size:24px}
+}
+@media(prefers-reduced-motion:reduce){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet{height:clamp(640px,100svh,900px)}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero{position:relative}
+}
+/* Desktop hero fills the screen, including displays taller than 900px. */
+@container em-detail (min-width:701px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet{height:180svh}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero{
+   height:100svh;
+   grid-template-rows:auto minmax(0,1fr) auto;
+   row-gap:20px;
+   padding:calc(4svh + 14px) 0 35px;
+ }
+ /* Reserve separate rows so products never cover the headline or caption. */
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-type{
+   position:relative;top:auto;
+   font-size:clamp(76px,min(14cqw,16svh),194px);
+ }
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art{
+   position:relative;top:auto;left:auto;
+   height:100%;width:auto;min-height:0;
+   max-width:min(80cqw,690px);
+   transform:none;align-self:stretch;
+ }
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero-caption{
+   position:relative;inset:auto;width:90%;
+ }
+}
+@media(prefers-reduced-motion:reduce){
+ @container em-detail (min-width:701px){
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet{height:100svh}
+ }
+}
+
+/* Content adaptation only: two 280g products; white-background source photographs. */
+@container em-detail (min-width:701px){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+[data-easy-mayo-version="0.5.4"] img[src*="-product-"]{clip-path:polygon(38% 5.6%,62% 5.6%,63% 6.7%,62.3% 9%,63.2% 18.6%,67.2% 20.7%,68.6% 26%,69.6% 78%,68.5% 91%,64.7% 97.2%,31.1% 94%,29.7% 87%,29.7% 56%,31.7% 22.4%,37.5% 20%,37.5% 9%);}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core::after{background-image:url("https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/easy-mayo/truffle-texture-detail-6de77cde.jpg");mask-image:url("https://ecimg.cafe24img.com/pg3547b37711334091/nayoonk/web/upload/kazak-milk-wave-b2db981b.png");mask-position:center bottom;mask-size:100% 125%;mask-repeat:no-repeat;}
+
+/* Easy Mayo palette and the two user-requested motion adaptations. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"]{--orange:#E7CDA5;--cream:#FFF9ED;--em-yellow-bg:#F7EEDC;--ink:#30261F;--red:#51402F}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero{color:#392C22;background:#E7CDA5}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-caption a{color:inherit;border-color:#725942}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-script{color:#775436}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core::after{background-color:#FBDDAA}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .ticker{background:#51402F;color:#FFF9ED}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-scroll{height:220svh;position:relative;background:#332A23;color:#FFF9ED;--sauce-offset:0;--sauce-visible:1;--bottle-squeeze:1}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .em-squeeze-scroll{--sauce-offset:1000;--sauce-visible:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-stage{position:sticky;top:0;height:100svh;min-height:560px;overflow:clip}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-stage .em-squeeze-visual{position:absolute;inset:0;margin:0;width:100%;height:100%;max-height:none;transform:none;pointer-events:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-svg{width:min(100%,142svh);height:100%;display:block;margin:auto;overflow:visible}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-mobile{display:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-sauce-mask{stroke-dashoffset:var(--sauce-offset)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-sauce-flow{opacity:var(--sauce-visible)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-bottle{transform:scaleX(var(--bottle-squeeze));transform-box:fill-box;transform-origin:center bottom}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy{position:absolute;left:51%;top:21%;width:43%;z-index:2}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .eyebrow{font-size:clamp(12px,1.2cqw,18px);color:#CAB190;margin-bottom:24px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .title{font-size:clamp(38px,5.7cqw,82px);line-height:1.15;color:#FFF9ED;margin:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .title strong{color:#FBDDAA;font-weight:inherit}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .copy{font-size:clamp(18px,2.1cqw,28px);margin-top:32px;line-height:1.55;color:#E8D8C0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-caption{font-size:clamp(14px,1.3cqw,18px);margin-top:18px;color:#CAB190}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-cue{position:absolute;bottom:3%;right:6%;display:flex;gap:18px;align-items:center;font-size:11px;letter-spacing:.14em;color:#D8C3A5}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .process.em-making-centered{padding:0;background:#FBF4E7}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story{margin-top:0;padding-block:0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story .em-rail-title{font-weight:800;font-size:clamp(44px,6.2cqw,88px);line-height:1.12;letter-spacing:-.06em;margin:0;text-align:center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-use-step{font-size:12px;letter-spacing:.12em;margin:0 0 8px;color:#70573E}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-copy{padding:18px 22px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-copy h3{font-size:clamp(25px,3cqw,40px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-copy p:last-child{font-size:clamp(14px,1.4cqw,19px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-card{grid-column:auto}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-grid{grid-template-columns:repeat(3,minmax(0,1fr));width:90%;margin-inline:auto}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-rail-stage>.eyebrow{text-align:center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-asset{aspect-ratio:4/5}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-caution-title{font-size:18px;margin:30px 0 14px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition{font-variant-numeric:tabular-nums;font-size:clamp(12px,1.12cqw,17px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition th,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition td{padding:9px 3px;overflow-wrap:normal;word-break:keep-all}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition th:first-child{width:24%}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition caption span{display:inline-block;margin:6px 0 10px;font-weight:500}
+@media(min-height:560px) and (prefers-reduced-motion:no-preference){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story{margin:0;width:100%;height:220svh}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-grid{grid-template-columns:repeat(3,minmax(0,1fr));width:min(94%,1200px);align-self:center}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-asset{max-height:40svh}
+}
+@container em-detail (max-width:760px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-stage{min-height:560px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-desktop{display:none}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-mobile{display:block;width:100%;height:100%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy{left:49%;top:13%;width:48%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .eyebrow{font-size:9px;letter-spacing:.04em;margin-bottom:14px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .title{font-size:clamp(25px,6.5cqw,42px);line-height:1.25;letter-spacing:-.065em}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .copy{font-size:clamp(13px,3.5cqw,19px);margin-top:18px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-caption{font-size:11px;margin-top:12px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-cue{font-size:9px;bottom:5%;right:7%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-story .em-rail-title{font-size:clamp(30px,8.4cqw,56px)}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-grid{grid-template-columns:1fr;gap:24px;width:88%;margin:30px auto}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-copy{padding:16px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-copy h3{font-size:25px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-copy p:last-child{font-size:15px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition{font-size:12px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition th,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-product-info .em-nutrition td{padding:8px 2px}
+ @media(min-height:560px) and (prefers-reduced-motion:no-preference){
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-grid{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(70cqw,42svh);width:max-content;align-self:flex-start}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-asset{max-height:none}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-copy{padding:14px}
+  :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-copy h3{font-size:23px}
+ }
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-squeeze-scroll{height:auto;--sauce-offset:0!important;--sauce-visible:1!important;--bottle-squeeze:1!important}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-squeeze-stage{position:relative}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-use-story{padding:70px 0}
+@media(prefers-reduced-motion:reduce),(max-height:559px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-scroll{height:auto;--sauce-offset:0!important;--sauce-visible:1!important;--bottle-squeeze:1!important}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-stage{position:relative}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story{padding:70px 0}
+}
+
+/* Actual sleeve proportions, photographic sauce, and food-focused presentation. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .hero-art img{object-fit:contain;clip-path:none;mix-blend-mode:normal}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art>.photo{width:46%;height:100%;aspect-ratio:auto;left:4%;bottom:0;background:transparent;overflow:visible}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art>.photo>img{width:100%;height:100%;object-fit:contain}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-hero-meet .hero .hero-art>.em-hero-mini{left:51%;bottom:0;width:46%;height:100%;object-fit:contain}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-card .photo img{object-fit:cover}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h3{font-size:clamp(32px,4.4cqw,64px);letter-spacing:-.055em;line-height:1.14;white-space:normal;color:#51402F}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset{height:clamp(230px,27cqw,380px);margin:12px 0}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset img{object-fit:contain}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset{position:relative;height:clamp(290px,32cqw,460px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset>img:first-child{position:absolute;width:72%;height:80%;left:0;bottom:0;top:auto}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset>img.em-use-product{position:absolute;width:42%;height:96%;left:auto;right:0;top:0;object-fit:contain;clip-path:none;mix-blend-mode:normal;z-index:1}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-scroll{--pour-crop:0%;background:#49382B}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced .em-squeeze-scroll{--pour-crop:37%}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy{left:7%;top:24%;width:48%;text-align:left}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .title{font-size:clamp(46px,6.8cqw,100px);line-height:1.17;text-align:left}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .copy{font-size:clamp(24px,2.65cqw,38px);margin-top:34px}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-caption{font-size:clamp(16px,1.65cqw,23px)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-stage .em-squeeze-visual{inset:0 0 0 auto;width:48%;height:100%;overflow:visible}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-pour-photo{position:absolute;height:160%;width:80svh;max-width:none;top:-55%;left:50%;transform:translateX(-50%);object-fit:contain;clip-path:inset(63% 0 var(--pour-crop) 0);will-change:clip-path}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-pour-bottle{clip-path:polygon(0 0,100% 0,100% 67%,52% 67%,52% 63%,0 63%);will-change:auto}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-cue{right:7%;font-size:12px;letter-spacing:.02em}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .em-ingredient-cutout{aspect-ratio:3/2;align-items:center}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .em-ingredient-cutout>img{width:100%;height:100%;object-fit:contain}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-card .em-photo-closeup{aspect-ratio:4/3;max-height:none;overflow:hidden}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-card .em-photo-closeup{aspect-ratio:4/3;max-height:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-photo-closeup>img{position:absolute;inset:auto;max-width:none;height:auto;object-fit:initial;transform:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-closeup-1>img{width:320%;height:640%;left:-61.25%;top:-195%}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-closeup-2>img{width:284.444%;height:568.888%;left:-153.333%;top:-322.963%}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-closeup-3>img{width:196.923%;height:393.846%;left:-50.769%;top:-243.077%}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe>.photo{width:100%;aspect-ratio:1;max-height:620px;background:transparent;box-shadow:none;overflow:visible}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe>.photo>img{width:100%;height:100%;object-fit:contain;position:absolute;inset:0;clip-path:none;mix-blend-mode:normal;filter:drop-shadow(0 18px 14px #49382B10)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe>.photo{transform:rotate(var(--em-recipe-angle,0deg));transform-origin:center;will-change:transform}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe-card,:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe:hover .recipe-card{transform:none;transition:none;animation:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-pairing{display:flex;align-items:center;gap:16px;margin-top:26px;padding-top:20px;border-top:1px solid #72594226;text-align:left}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-pairing>img{position:static;width:64px;height:128px;object-fit:contain;clip-path:none;mix-blend-mode:normal;transform:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-pairing p{margin:0;display:grid;gap:6px;font-family:inherit}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-pairing span{font-size:12px;color:#806951;line-height:1.4}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-pairing strong{font-size:18px;color:#49382B;line-height:1.4;word-break:keep-all}
+@media(min-height:560px) and (prefers-reduced-motion:no-preference){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-grid{margin-inline:0;align-self:flex-start}
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-recipe-list .recipe>.photo{transform:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-pair{display:block;width:100%;height:560px;transform:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-pair>.em-jar-large{width:100%;height:100%;object-fit:contain;clip-path:none;mix-blend-mode:normal}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair+.em-flavor-details .em-flavor-garnish{display:block;width:min(100%,350px);aspect-ratio:3/2;transform:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-flavor-details .em-flavor-garnish>img{object-fit:contain;filter:none}
+@container em-detail (min-width:701px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:5%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel:has(.em-jar-pair){grid-template-columns:1fr 1fr;grid-template-areas:"jars description" "jars ingredient";column-gap:7%;row-gap:8px;max-width:1040px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair+.em-flavor-details .em-flavor-garnish{width:min(100%,350px)}
+}
+@container em-detail (max-width:760px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy{left:5%;top:32%;width:54%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .title{font-size:clamp(26px,7.1cqw,46px);letter-spacing:-.06em}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-copy .copy{font-size:clamp(16px,4.1cqw,25px);margin-top:24px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-caption{font-size:clamp(12px,3.1cqw,16px);line-height:1.65}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-stage .em-squeeze-visual{width:45%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-pour-photo{height:145%;width:72.5svh;top:-45%;left:63%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-cue{font-size:10px;right:6%;bottom:5%}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-card .em-photo-closeup{aspect-ratio:4/3;max-height:none}
+}
+@container em-detail (max-width:700px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card h3{font-size:clamp(27px,7.4cqw,40px)}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card .em-asset{height:clamp(180px,52cqw,270px)}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-size-guide .em-size-card p{display:block;font-size:14px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .ingredients{gap:32px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-core .em-ingredient-cutout{height:230px;aspect-ratio:auto}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe>.photo{width:110%;max-width:none;justify-self:center;max-height:470px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel:has(.em-jar-pair){grid-template-columns:1fr;grid-template-areas:"jars" "description" "ingredient";row-gap:24px}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-pair{height:440px;width:100%;transform:none}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair+.em-flavor-details .em-flavor-garnish{display:block;grid-area:ingredient;width:min(90%,310px);justify-self:center;margin:0 auto}
+}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].is-paused .em-squeeze-scroll{--pour-crop:0%!important}
+@media(prefers-reduced-motion:reduce),(max-height:559px){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-squeeze-scroll{--pour-crop:0%!important}}
+@media(prefers-reduced-motion:reduce){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-recipe-list .recipe>.photo{transform:none}}
+
+/* Food-first landscape photography; original product photo pixels. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-card .photo img{object-fit:cover;width:100%;height:100%}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-use-story .em-making-card .em-step-photo,
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"].enhanced:not(.is-paused) .em-use-story .em-making-card .em-step-photo{aspect-ratio:4/3;max-height:none;overflow:hidden;position:relative}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-step-photo>img{position:absolute;inset:0;width:100%;height:100%;max-width:100%;object-fit:cover;transform:none}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors{--flavor-bg:#49443E;--flavor-ink:#FFF7E9;--ink:var(--flavor-ink);--cream:var(--flavor-bg);background:var(--flavor-bg);color:var(--flavor-ink);transition:background-color .45s,color .45s}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors :is(.title,.eyebrow,.copy,.en,h3){color:var(--flavor-ink)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .tabbar button{border-color:currentColor;color:var(--flavor-ink);background:transparent}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .tabbar button[aria-selected=true]{background:var(--flavor-ink);border-color:var(--flavor-ink);color:var(--flavor-bg)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .em-jar-large{filter:drop-shadow(0 22px 18px #00000024)}
+
+/* 0.5.4: keep the full product silhouette; reveal only the separate sauce layer. */
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-pour-photo{clip-path:inset(0 0 var(--pour-crop) 0)}
+:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-pour-bottle{clip-path:none;will-change:auto}
+@media(min-width:701px){:is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .gallery-controls button{display:none!important}}
+@container em-detail (max-width:700px){
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .flavors .flavor-panel:has(.em-jar-pair){grid-template-areas:"jars" "description";grid-template-rows:auto auto}
+ :is(#em-v3,[data-easy-mayo-version])[data-easy-mayo-version="0.5.4"] .em-jar-pair+.em-flavor-details .em-flavor-garnish{grid-area:jars;align-self:end;justify-self:end;width:clamp(96px,32cqw,140px);height:auto;aspect-ratio:3/2;margin:0 2% 16px 0;z-index:2;pointer-events:none}
+}
